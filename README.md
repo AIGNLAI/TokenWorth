@@ -2,14 +2,16 @@
 
 # TokenWorth
 
-### Remembering Has a Price:<br>Learning Memory Worth under Resource Constraints
+### Every Token Counts:<br>Online Memory Worth for Resource-Constrained Lifelong Agents
 
 Guannan Lai · Zi-Yang Bai · Jun-Peng Jiang · Han-Jia Ye<br>
 Nanjing University
 
+**[NeurIPS 2026 Workshop on Towards Test-Time Continual Learning Agents](https://openreview.net/forum?id=PM9T7txQUG)**
+
 **Learn which experiences are worth retrieving, retaining, and reusing.**
 
-[![Tests](https://github.com/AIGNLAI/TokenWorth/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/AIGNLAI/TokenWorth/actions/workflows/tests.yml) [![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11-3776AB?logo=python&logoColor=white)](#benchmarks) [![Benchmarks](https://img.shields.io/badge/Benchmarks-3%20suites-0F766E)](#benchmarks)
+[![Paper](https://img.shields.io/badge/Paper-OpenReview-B31B1B)](https://openreview.net/forum?id=PM9T7txQUG) [![Tests](https://github.com/AIGNLAI/TokenWorth/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/AIGNLAI/TokenWorth/actions/workflows/tests.yml) [![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11-3776AB?logo=python&logoColor=white)](#benchmarks) [![Benchmarks](https://img.shields.io/badge/Benchmarks-3%20suites-0F766E)](#benchmarks)
 
 [Overview](#overview) · [Quick Start](#quick-start) · [Benchmarks](#benchmarks) · [Method](#method) · [Citation](#citation)
 
@@ -186,11 +188,12 @@ TokenWorth/
 If you use TokenWorth, cite:
 
 ```bibtex
-@misc{lai2026remembering,
+@inproceedings{lai2026every,
+  title = {Every Token Counts: Online Memory Worth for Resource-Constrained Lifelong Agents},
   author = {Guannan Lai and Zi-Yang Bai and Jun-Peng Jiang and Han-Jia Ye},
-  title  = {Remembering Has a Price: Learning Memory Worth under Resource Constraints},
-  year   = {2026},
-  url    = {https://github.com/AIGNLAI/TokenWorth}
+  booktitle = {NeurIPS 2026 Workshop on Towards Test-Time Continual Learning Agents},
+  year = {2026},
+  url = {https://openreview.net/forum?id=PM9T7txQUG}
 }
 ```
 

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use TokenWorth, please cite the paper below."
+type: software
+title: TokenWorth
+url: https://github.com/AIGNLAI/TokenWorth
+repository-code: https://github.com/AIGNLAI/TokenWorth
+authors:
+  - family-names: Lai
+    given-names: Guannan
+  - family-names: Bai
+    given-names: Zi-Yang
+  - family-names: Jiang
+    given-names: Jun-Peng
+  - family-names: Ye
+    given-names: Han-Jia
+preferred-citation:
+  type: conference-paper
+  title: "Every Token Counts: Online Memory Worth for Resource-Constrained Lifelong Agents"
+  authors:
+    - family-names: Lai
+      given-names: Guannan
+    - family-names: Bai
+      given-names: Zi-Yang
+    - family-names: Jiang
+      given-names: Jun-Peng
+    - family-names: Ye
+      given-names: Han-Jia
+  collection-title: "NeurIPS 2026 Workshop on Towards Test-Time Continual Learning Agents"
+  year: 2026
+  url: https://openreview.net/forum?id=PM9T7txQUG
