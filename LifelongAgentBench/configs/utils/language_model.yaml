@@ -1,0 +1,17 @@
+default:
+  module: "src.language_models.instance.openai_language_model.OpenaiLanguageModel"
+  parameters:
+    role_dict:
+      # https://platform.openai.com/docs/guides/text-generation#messages-and-roles
+      user: "user"
+      agent: "assistant"
+    api_key: ~
+    base_url: ~
+    maximum_prompt_token_count: ~
+    timeout: ~
+    max_retries: ~
+    trust_env: true
+
+experiment_model:
+  parameters:
+    model_name: "env:LIFELONG_AGENT_MODEL_NAME"

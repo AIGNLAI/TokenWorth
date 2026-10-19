@@ -1,0 +1,29 @@
+import:
+- ../../tasks/db.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      name: EvoSkill
+      custom_parameters:
+        language_model: experiment_model
+        top_k: 1
+        max_skill_count: 64
+        max_context_length: 900
+        max_trajectory_length: 900
+        max_injected_chars_total: 900
+        failure_batch_size: 8
+        evolution_interval: 25
+        validation_window: 25
+        baseline_window: 50
+        feedback_history_size: 8
+        max_failure_buffer_size: 8
+        min_token_overlap: 1
+        auxiliary_max_tokens: 128
+    callback_1:
+      name: saving
+    callback_2:
+      name: abnormal
+    callback_3:
+      name: memory_monitor
+  output_dir: outputs/runs/EvoSkill-db-{TIMESTAMP_MS}
+  sample_order: default

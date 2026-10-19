@@ -1,0 +1,68 @@
+FROM python:3.10-slim@sha256:31dd4d9529d02d7436659061cb7564cd4733fc90e5e152709a942d53382ec8d0
+
+ARG BIGCODEBENCH_COMMIT=09dd993f46c3fbf3a799465bb96d524edcb0b199
+
+RUN set -eux; \
+    for attempt in 1 2 3; do \
+        if timeout 180 apt-get \
+            -o Acquire::Retries=1 -o Acquire::http::Timeout=30 update; then \
+            break; \
+        fi; \
+        [ "$attempt" -lt 3 ] || exit 1; \
+        sleep "$attempt"; \
+    done; \
+    for attempt in 1 2 3; do \
+        if DEBIAN_FRONTEND=noninteractive timeout 1800 apt-get \
+            -o Acquire::Retries=1 -o Acquire::http::Timeout=30 \
+            install -y --no-install-recommends \
+            g++ git libfreetype6-dev libgdal-dev libpng-dev pkg-config procps \
+            python3-dev python3-matplotlib python3-tk r-base zip unzip; then \
+            break; \
+        fi; \
+        [ "$attempt" -lt 3 ] || exit 1; \
+        sleep "$attempt"; \
+    done; \
+    rm -rf /var/lib/apt/lists/*
+
+RUN set -eux; \
+    mkdir -p /opt/bigcodebench; \
+    git -C /opt/bigcodebench init; \
+    git -C /opt/bigcodebench remote add origin \
+        https://github.com/bigcode-project/bigcodebench.git; \
+    for attempt in 1 2 3; do \
+        if git -C /opt/bigcodebench \
+            -c http.lowSpeedLimit=1000 \
+            -c http.lowSpeedTime=30 \
+            fetch --depth 1 origin "$BIGCODEBENCH_COMMIT"; then \
+            break; \
+        fi; \
+        if [ "$attempt" -eq 3 ]; then \
+            echo "Failed to fetch BigCodeBench after $attempt attempts." >&2; \
+            exit 1; \
+        fi; \
+        sleep "$attempt"; \
+    done; \
+    git -C /opt/bigcodebench checkout --detach "$BIGCODEBENCH_COMMIT"
+
+COPY docker/requirements-eval.txt /tmp/requirements-eval.txt
+RUN python -m pip install --no-cache-dir --upgrade pip \
+    && python -m pip install --no-cache-dir numpy==1.24.3 pyarrow==14.0.1 \
+    && python -m pip install --no-cache-dir /opt/bigcodebench --no-deps \
+    && python -m pip install --no-cache-dir -r /tmp/requirements-eval.txt \
+    && python -m pip install --no-cache-dir \
+       appdirs datasets==2.17.0 multipledispatch pqdm setuptools==70.3.0 \
+       tempdir termcolor tqdm tree_sitter==0.22.3 \
+       tree-sitter-python==0.21.0 wget
+
+COPY experiments /opt/tokenworth-bigcodebench/experiments
+ENV PYTHONPATH=/opt/tokenworth-bigcodebench \
+    MPLCONFIGDIR=/tmp/matplotlib \
+    PYTHONUNBUFFERED=1 \
+    TOKENIZERS_PARALLELISM=false
+
+RUN useradd --create-home --uid 10001 evaluator
+RUN mkdir /data
+USER evaluator
+WORKDIR /opt/tokenworth-bigcodebench
+
+ENTRYPOINT ["python", "-u", "-m", "experiments.local_evaluator_worker"]

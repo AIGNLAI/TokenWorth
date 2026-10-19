@@ -1,0 +1,12 @@
+import:
+- ../../tasks/db.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      name: saving
+    callback_1:
+      name: abnormal
+    callback_2:
+      name: memory_monitor
+  output_dir: outputs/runs/standard-db-{TIMESTAMP_MS}
+  sample_order: default

@@ -1,0 +1,5 @@
+abnormal:
+  module: src.callbacks.instance.abnormal.ConsecutiveAbnormalAgentInferenceProcessHandlingCallback
+  parameters:
+    tolerance_count: 8
+    abort_after_tolerance: false

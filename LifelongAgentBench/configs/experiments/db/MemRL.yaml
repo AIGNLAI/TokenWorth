@@ -1,0 +1,24 @@
+import:
+- ../../tasks/db.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      name: MemRL
+      custom_parameters:
+        top_k: 1
+        candidate_count: 12
+        learning_rate: 0.3
+        max_memory_count: 64
+        max_snippet_length: 900
+        max_injected_chars_total: 900
+        minimum_relevance_score: 2
+        store_incorrect_episodes: false
+        use_evaluator_outcome_only: true
+    callback_1:
+      name: saving
+    callback_2:
+      name: abnormal
+    callback_3:
+      name: memory_monitor
+  output_dir: outputs/runs/MemRL-db-{TIMESTAMP_MS}
+  sample_order: default

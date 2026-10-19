@@ -1,0 +1,8 @@
+RAG:
+  module: "src.callbacks.instance.RAG.RAGExperienceRetrievalCallback"
+  parameters:
+    top_k: 4
+    max_snippet_length: 1600
+    max_memory_count: 256
+    max_injected_chars_total: 1600
+    use_evaluator_outcome_only: false

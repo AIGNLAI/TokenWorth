@@ -1,0 +1,12 @@
+{
+  "value": {
+    "0": {
+      "role": "user",
+      "content": "You answer a question by interacting with a Freebase knowledge graph. Follow the protocol exactly.\n\nPROTOCOL\n- Every response must be exactly one line. Do not include reasoning, explanations, headings, or multiple commands.\n- A tool response must be: Action: function(arguments)\n- A final response must be: Final Answer: #N\n- Never answer from prior knowledge and never put a natural-language answer after Final Answer.\n- Entity names may only be copied exactly from the provided Entities list. Do not invent or paraphrase entity names.\n- The | characters only separate entity names; they are not part of a name.\n- Never put quotation marks around an entity or relation. For entity first dog, write Action: get_relations(first dog), not Action: get_relations('first dog').\n- A #N variable may only be used after the environment has created it.\n- If an action returns an error, correct the next action using the error message.\n\nACTIONS\n- Action: get_relations(entity_or_#N)\n  Lists valid relations. It creates no variable. Always call this before get_neighbors for the same entity or variable.\n- Action: get_neighbors(entity_or_#N,relation)\n  The relation must come from the preceding get_relations result. It creates the next variable.\n- Action: intersection(#N,#M)\n  Intersects two variables of the same type and creates the next variable.\n- Action: get_attributes(#N)\n  Lists valid numeric/date attributes. It creates no variable.\n- Action: argmax(#N,attribute)\n  The attribute must come from get_attributes. It creates a final-only variable.\n- Action: argmin(#N,attribute)\n  The attribute must come from get_attributes. It creates a final-only variable.\n- Action: count(#N)\n  Creates a final-only variable.\n\nVARIABLE RULES\n- Only get_neighbors, intersection, argmax, argmin, and count create variables.\n- Variables are numbered #0, #1, ... in creation order.\n- Variables created by argmax, argmin, or count must be submitted immediately as the final answer.\n- Submit exactly one existing variable: Final Answer: #N\n\nStart by selecting an exact entity from Entities and calling get_relations on it."
+    },
+    "1": {
+      "role": "agent",
+      "content": "OK."
+    }
+  }
+}

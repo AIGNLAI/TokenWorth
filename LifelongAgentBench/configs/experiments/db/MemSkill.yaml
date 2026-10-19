@@ -1,0 +1,32 @@
+import:
+- ../../tasks/db.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      name: MemSkill
+      custom_parameters:
+        language_model: experiment_model
+        top_k: 1
+        top_k_skills: 1
+        max_memory_count: 48
+        max_skill_count: 16
+        max_trajectory_length: 900
+        skill_evolution_interval: 0
+        correct_memory_only: true
+        max_injected_memory_chars_per_item: 900
+        max_injected_memory_chars_total: 900
+        max_injected_chars_total: 900
+        retrieval_strength_weight: 0.5
+        retrieval_access_weight: 0.0
+        max_retrieval_strength: 3.0
+        max_retrieval_access_count: 5
+        auxiliary_max_tokens: 128
+        use_evaluator_outcome_only: true
+    callback_1:
+      name: saving
+    callback_2:
+      name: abnormal
+    callback_3:
+      name: memory_monitor
+  output_dir: outputs/runs/MemSkill-db-{TIMESTAMP_MS}
+  sample_order: default

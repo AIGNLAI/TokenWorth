@@ -1,0 +1,36 @@
+TokenWorth:
+  module: src.callbacks.instance.TokenWorth.TokenWorthMemoryCallback
+  parameters:
+    embedding_dim: 512
+    character_ngram_min: 3
+    character_ngram_max: 5
+    embedding_cache_enabled: true
+    top_k: 1
+    max_memory_count: 64
+    max_snippet_length: 900
+    max_injected_chars_total: 900
+    candidate_count: 12
+    krr_update_interval: 50
+    agop_update_interval: 200
+    krr_buffer_size: 128
+    agop_buffer_size: 256
+    rfm_influence: 0.15
+    rfm_influence_warmup_updates: 3
+    min_pair_count_for_rfm: 4
+    ridge_lambda: 0.01
+    kernel_gamma: 1.0
+    agop_smoothing: 0.25
+    agop_min_weight: 0.05
+    agop_max_weight: 8.0
+    base_buffer_size: 256
+    base_update_interval: 50
+    base_regularization: 0.1
+    base_smoothing: 0.5
+    novelty_threshold: 0.35
+    recent_probe_count: 8
+    rfm_positive_ratio_threshold: 0.45
+    rfm_write_gain_margin: 0.02
+    replacement_value_margin: 0.1
+    max_action_observation_chars: 260
+    memory_block_title: Retrieved successful experience
+    use_evaluator_outcome_only: true

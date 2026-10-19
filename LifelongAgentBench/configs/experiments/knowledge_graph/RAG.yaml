@@ -1,0 +1,20 @@
+import:
+- ../../tasks/knowledge_graph.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      name: RAG
+      custom_parameters:
+        top_k: 1
+        max_memory_count: 64
+        max_snippet_length: 4096
+        max_injected_chars_total: 4096
+        use_evaluator_outcome_only: true
+    callback_1:
+      name: saving
+    callback_2:
+      name: abnormal
+    callback_3:
+      name: memory_monitor
+  output_dir: outputs/runs/RAG-knowledge_graph-{TIMESTAMP_MS}
+  sample_order: default

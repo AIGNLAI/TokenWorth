@@ -1,0 +1,26 @@
+import:
+- ../../tasks/db.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      name: EvoSC
+      custom_parameters:
+        language_model: experiment_model
+        top_k_success: 1
+        top_k_failure: 1
+        max_trajectory_length: 900
+        max_success_count: 32
+        max_failure_count: 31
+        max_summary_count: 1
+        max_injected_chars_total: 900
+        max_retrieved_items: 1
+        auxiliary_max_tokens: 128
+        use_evaluator_outcome_only: true
+    callback_1:
+      name: saving
+    callback_2:
+      name: abnormal
+    callback_3:
+      name: memory_monitor
+  output_dir: outputs/runs/EvoSC-db-{TIMESTAMP_MS}
+  sample_order: default

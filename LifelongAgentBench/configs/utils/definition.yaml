@@ -1,0 +1,27 @@
+language_model_dict:
+  import:
+    - ./language_model.yaml
+agent_dict:
+  import:
+    - ./agent.yaml
+callback_dict:
+  import:
+    - ../methods/saving.yaml
+    - ../methods/RAG.yaml
+    - ../methods/Reflexion.yaml
+    - ../methods/Mem0.yaml
+    - ../methods/MemP.yaml
+    - ../methods/MemSkill.yaml
+    - ../methods/TokenWorth.yaml
+    - ../methods/MemRL.yaml
+    - ../methods/EvoSkill.yaml
+    - ../methods/EvoSC.yaml
+    - ../methods/abnormal.yaml
+  memory_monitor:
+    module: "src.callbacks.instance.memory_monitor.ProcessMemoryMonitorCallback"
+    parameters:
+      sample_interval_seconds: 0.5
+      include_child_processes: false
+
+import:
+  - ./logger.yaml

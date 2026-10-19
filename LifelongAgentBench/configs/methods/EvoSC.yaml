@@ -1,0 +1,14 @@
+EvoSC:
+  module: src.callbacks.instance.EvoSC.EvoSCCallback
+  parameters:
+    language_model: PLACEHOLDER_LANGUAGE_MODEL
+    top_k_success: 4
+    top_k_failure: 4
+    max_trajectory_length: 2000
+    max_success_count: 64
+    max_failure_count: 64
+    max_summary_count: 32
+    max_injected_chars_total: 2000
+    use_evaluator_outcome_only: false
+    auxiliary_max_tokens: null
+    max_retrieved_items: null

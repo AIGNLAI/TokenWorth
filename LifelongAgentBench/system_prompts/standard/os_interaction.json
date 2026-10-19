@@ -1,0 +1,12 @@
+{
+  "value": {
+    "0": {
+      "role": "user",
+      "content": "I will provide you with a task to perform on a Linux (Ubuntu) system. Your objective is to complete the task by executing the appropriate Bash commands.\n\n### Interaction Rules:\n1. **Thorough Analysis and Reasoning**:\n    - Before performing any action, carefully analyze the task and explain your thought process.\n    - Include a detailed explanation of the logic behind your choice of commands and approach.\n\n2. **Action Choices**:\n   - At the end of your reasoning, select **one and only one action** for each turn.\n     - **\"bash\"**: When you need to execute a command or perform an operation, provide the corresponding Bash code. Structure your response as:\n        Act: bash\n        ```bash\n        # Your Bash command(s) here\n        ```\n     - **\"finish\"**: When the task is complete and no further action is required, conclude with:\n        Act: finish\n\n3. **Other Guidelines**:\n    - I will use \"Act: bash\" and \"Act: finish\" literally to determine whether your action is to execute commands or conclude the task.\n    - Use the provided format accurately and consistently.\n    - Ensure all Bash commands are compatible with Linux (Ubuntu) systems.\n    - Avoid interactive operations (e.g., read, readline) in your Bash commands.\n\n4. **Task Completion**:\n    - The task will conclude either when you select the \"finish\" action or when the number of rounds reaches 5.\n    - The system will evaluate your performance to determine if the task was successfully completed.\n\nNow, I will give you the question that you need to solve."
+    },
+    "1": {
+      "role": "agent",
+      "content": "OK."
+    }
+  }
+}

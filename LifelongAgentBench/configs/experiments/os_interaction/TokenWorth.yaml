@@ -1,0 +1,22 @@
+import:
+- ../../tasks/os_interaction.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      custom_parameters:
+        max_snippet_length: 800
+        max_injected_chars_total: 800
+        krr_update_interval: 25
+        agop_update_interval: 100
+        rfm_influence: 0.05
+        min_pair_count_for_rfm: 4
+        embedding_cache_enabled: true
+      name: TokenWorth
+    callback_1:
+      name: saving
+    callback_2:
+      name: abnormal
+    callback_3:
+      name: memory_monitor
+  output_dir: outputs/runs/TokenWorth-os-{TIMESTAMP_MS}
+  sample_order: default

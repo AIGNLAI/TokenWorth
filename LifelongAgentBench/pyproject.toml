@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lifelong-agent-bench"
+version = "0.1.0"
+description = "Benchmark for evaluating LLM agents as lifelong learners"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "bashlex>=0.18,<0.19",
+    "colorama>=0.4.6,<0.5",
+    "coredumpy>=0.4.2,<0.5",
+    "docker>=7.1,<8",
+    "mysql-connector-python>=9.1,<10",
+    "numpy>=1.26,<3",
+    "tokenworth-core==0.2.0",
+    "openai>=1.59,<3",
+    "psutil>=6,<8",
+    "pydantic>=2.10,<3",
+    "PyYAML>=6,<7",
+    "SPARQLWrapper>=2.0,<3",
+    "sqlglot>=26.7,<27",
+    "tqdm>=4.66,<5",
+    "typing-extensions>=4.12,<5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black==24.10.0",
+    "mypy>=1.13,<2",
+    "pre-commit>=4.0,<5",
+    "pytest>=8.3,<9",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.setuptools]
+py-modules = ["run"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+include = '\.pyi?$'  # only format .py and .pyi files
+
+[tool.mypy]
+python_version = 3.11
+explicit_package_bases = true
+install_types = true
+no_implicit_reexport = false
+strict=true
+exclude = [
+    "^(?!src/).*",
+]
+plugins = ['pydantic.mypy']
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true

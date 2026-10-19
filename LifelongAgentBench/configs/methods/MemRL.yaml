@@ -1,0 +1,12 @@
+MemRL:
+  module: "src.callbacks.instance.MemRL.MemRLCallback"
+  parameters:
+    top_k: 8
+    candidate_count: 16
+    learning_rate: 0.3
+    max_snippet_length: 1600
+    minimum_relevance_score: 2
+    store_incorrect_episodes: false
+    max_memory_count: 256
+    max_injected_chars_total: 1600
+    use_evaluator_outcome_only: false

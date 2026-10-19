@@ -1,0 +1,22 @@
+import:
+- ../../tasks/os_interaction.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      custom_parameters:
+        language_model: experiment_model
+        max_injected_chars_total: 800
+        max_memory_count: 64
+        max_trajectory_length: 800
+        top_k: 1
+        use_evaluator_outcome_only: true
+        auxiliary_max_tokens: 512
+      name: MemP
+    callback_1:
+      name: saving
+    callback_2:
+      name: abnormal
+    callback_3:
+      name: memory_monitor
+  output_dir: outputs/runs/MemP-os-{TIMESTAMP_MS}
+  sample_order: default

@@ -1,0 +1,32 @@
+import:
+- ../../tasks/os_interaction.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      custom_parameters:
+        correct_memory_only: true
+        language_model: experiment_model
+        max_injected_chars_total: 800
+        max_injected_memory_chars_per_item: 800
+        max_injected_memory_chars_total: 800
+        max_memory_count: 48
+        max_retrieval_access_count: 5
+        max_retrieval_strength: 3.0
+        max_skill_count: 16
+        max_trajectory_length: 800
+        retrieval_access_weight: 0.0
+        retrieval_strength_weight: 0.5
+        skill_evolution_interval: 0
+        top_k: 1
+        top_k_skills: 1
+        use_evaluator_outcome_only: true
+        auxiliary_max_tokens: 512
+      name: MemSkill
+    callback_1:
+      name: saving
+    callback_2:
+      name: abnormal
+    callback_3:
+      name: memory_monitor
+  output_dir: outputs/runs/MemSkill-os-{TIMESTAMP_MS}
+  sample_order: default

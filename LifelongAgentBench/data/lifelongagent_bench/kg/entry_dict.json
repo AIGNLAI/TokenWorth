@@ -1,0 +1,1863 @@
+{
+  "0": {
+    "question": "what is the attitude of the first dog and the german shepherds?",
+    "entity_dict": {
+      "first dog": "m.05t073s",
+      "german shepherds": "m.0km5c"
+    },
+    "answer_list": [
+      "m.04kqpjd",
+      "m.04kpkld"
+    ]
+  },
+  "1": {
+    "question": "When was the last superbowl to inlucde the team that had Rise as thier mascot?",
+    "entity_dict": {
+      "superbowl": "m.06x5s",
+      "Rise": "m.0nz45zc"
+    },
+    "answer_list": [
+      "m.0642vqv"
+    ]
+  },
+  "2": {
+    "question": "Which form of government was practiced within Sparta and within the countries ruled by Philip III of Spain?",
+    "entity_dict": {
+      "Sparta": "m.09472",
+      "Philip III of Spain": "m.012rkn"
+    },
+    "answer_list": [
+      "m.04szc"
+    ]
+  },
+  "3": {
+    "question": "what type of menstrual cramps treatments have sludge syndrome side effects?",
+    "entity_dict": {
+      "menstrual cramps": "m.0255t_",
+      "SLUDGE syndrome": "m.025yc7f"
+    },
+    "answer_list": [
+      "m.014d3g"
+    ]
+  },
+  "4": {
+    "question": "how many different religious texts have oriental orthodox and hidden christians of japan texts?",
+    "entity_dict": {
+      "Hidden Christians of Japan": "m.044f0r",
+      "oriental orthodox": "m.05pbd"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "5": {
+    "question": "how many camera iso capabilities are the iso setting used by kodak z712 is zoom digital camera and samsung s1050?",
+    "entity_dict": {
+      "Kodak Z712 IS ZOOM digital camera": "m.03hpfyz",
+      "Samsung S1050": "m.03q2r11"
+    },
+    "answer_list": [
+      "7"
+    ]
+  },
+  "6": {
+    "question": "which types of storage are compatible with casio exilim ex-v8 as well as color filter array of bayer?",
+    "entity_dict": {
+      "Casio Exilim EX-V8": "m.03q2ljb",
+      "bayer": "m.02r8js"
+    },
+    "answer_list": [
+      "m.01tthm",
+      "m.0220vm1",
+      "m.01z76m"
+    ]
+  },
+  "7": {
+    "question": "What is the ocean that the water flowing underneath the Bethanga Bridge empties into?",
+    "entity_dict": {
+      "Ocean": "m.05kq4",
+      "Bethanga Bridge": "m.010hrn7g"
+    },
+    "answer_list": [
+      "m.06nqw"
+    ]
+  },
+  "8": {
+    "question": "a camera with a bayer and iso setting of 800 has what type of sensor type?",
+    "entity_dict": {
+      "bayer": "m.02r8js",
+      "800": "m.01xrg58"
+    },
+    "answer_list": [
+      "m.01zqt",
+      "m.02x3xhq",
+      "m.0d17kj"
+    ]
+  },
+  "9": {
+    "question": "What was the earliest event that George W. Bush was sworn in at?",
+    "entity_dict": {
+      "United States presidential inauguration": "m.03bxbl6",
+      "George W. Bush": "m.09b6zr"
+    },
+    "answer_list": [
+      "m.05bryps"
+    ]
+  },
+  "10": {
+    "question": "what rocket engine designer designs a bipropellant rocket engine with rp-1 and gas-generator cycle?",
+    "entity_dict": {
+      "Gas-generator cycle": "m.04qqvv",
+      "RP-1": "m.021vvd"
+    },
+    "answer_list": [
+      "m.03fkyw",
+      "m.01vhl6"
+    ]
+  },
+  "11": {
+    "question": "how much content about technology is produced by the person that produces let the good times roll?",
+    "entity_dict": {
+      "Technology": "m.07c1v",
+      "Let the Good Times Roll": "m.05v8gm9"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "12": {
+    "question": "what website, using really simple syndication as api, has the category of jovem nerd?",
+    "entity_dict": {
+      "Jovem Nerd": "m.0ywgx93",
+      "really simple syndication": "m.0n5tx"
+    },
+    "answer_list": [
+      "m.0mzwd",
+      "m.02kdzwd"
+    ]
+  },
+  "13": {
+    "question": "What standard time zone is used in Michigan and locations near Venice Municipal Airport?",
+    "entity_dict": {
+      "Michigan": "m.04rrx",
+      "Venice Municipal Airport": "m.026w2y7"
+    },
+    "answer_list": [
+      "m.02hcv8"
+    ]
+  },
+  "14": {
+    "question": "what is the isos that kodak easyshare m753 by canon, inc. supports?",
+    "entity_dict": {
+      "Kodak EasyShare M753": "m.04wk7k7",
+      "canon, inc.": "m.01bvx1"
+    },
+    "answer_list": [
+      "m.01xrf_x",
+      "m.01xrf_7",
+      "m.01xrf_g",
+      "m.01xrf_p",
+      "m.01xrg58"
+    ]
+  },
+  "15": {
+    "question": "what type of viewfinder is uses a unknown sensor and uses a jpeg (exif 2.2) format?",
+    "entity_dict": {
+      "JPEG (EXIF 2.2)": "m.03q44xr",
+      "Unknown": "m.01xrf_0"
+    },
+    "answer_list": [
+      "m.01xrg6z",
+      "m.01xrg1f",
+      "m.0220vpb"
+    ]
+  },
+  "16": {
+    "question": "what is the name of the position that stephen wilson played in which the player who authored did you see that thing? that\u2019s sidat-singh! the syracuse walking dream! also play?",
+    "entity_dict": {
+      "Did you see that thing? That\u2019s Sidat-Singh! The Syracuse Walking Dream!": "m.09rl290",
+      "Stephen Wilson": "m.0w4pvjj"
+    },
+    "answer_list": [
+      "m.05ch8k4"
+    ]
+  },
+  "17": {
+    "question": "The team that won the 1969 World Series championship won the World Series last when?",
+    "entity_dict": {
+      "1969 World Series": "m.04jg9_"
+    },
+    "answer_list": [
+      "m.01q9lc"
+    ]
+  },
+  "18": {
+    "question": "the harrier and chinese crested dog dog breeds share how many temperaments?",
+    "entity_dict": {
+      "Harrier": "m.0fsg8",
+      "Chinese Crested Dog": "m.01f57_"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "19": {
+    "question": "what regions sell vc nintendo games?",
+    "entity_dict": {
+      "Nintendo": "m.059wk",
+      "vc": "m.07sg3j"
+    },
+    "answer_list": [
+      "m.02j9z",
+      "m.03_3d",
+      "m.059g4",
+      "m.0chghy"
+    ]
+  },
+  "20": {
+    "question": "hazelwood west high school and the publisher of folia fall under which category of schools?",
+    "entity_dict": {
+      "Folia": "m.03p0sq7",
+      "Hazelwood West High School": "m.08w6sy"
+    },
+    "answer_list": [
+      "m.0fjrb"
+    ]
+  },
+  "21": {
+    "question": "the character that resides in the palaces of sacred band of stepsons is named what?",
+    "entity_dict": {
+      "palaces": "m.05zp8",
+      "Sacred Band of Stepsons": "m.0b_wsry"
+    },
+    "answer_list": [
+      "m.0c0b19n",
+      "m.0ll9p",
+      "m.0c1dhy_"
+    ]
+  },
+  "22": {
+    "question": "Where is the greatest population in the country where the Domari is spoken?",
+    "entity_dict": {
+      "domari": "m.0c4chg"
+    },
+    "answer_list": [
+      "m.080msrv"
+    ]
+  },
+  "23": {
+    "question": "What Canadian government exists where Baldur von Schirach was born?",
+    "entity_dict": {
+      "canadian": "m.0d060g",
+      "Baldur von Schirach": "m.0143sn"
+    },
+    "answer_list": [
+      "m.01q20"
+    ]
+  },
+  "24": {
+    "question": "for the casinos owned by the same person as bellagio, which one is the smallest?",
+    "entity_dict": {
+      "Bellagio": "m.033bxs"
+    },
+    "answer_list": [
+      "m.0937y7"
+    ]
+  },
+  "25": {
+    "question": "The artist who had a concert tour named I'm Your Baby Tonight World Tour died from what drugs?",
+    "entity_dict": {
+      "Drug overdose": "m.01tf_6",
+      "I'm Your Baby Tonight World Tour": "m.047bc2r"
+    },
+    "answer_list": [
+      "m.02nx6jb"
+    ]
+  },
+  "26": {
+    "question": "which musical release is produced by it can happen and labelled warner bros records?",
+    "entity_dict": {
+      "It Can Happen": "m.0ph2bx",
+      "warner bros records": "m.03rhqg"
+    },
+    "answer_list": [
+      "m.0393p0f",
+      "m.03bkpjp"
+    ]
+  },
+  "27": {
+    "question": "what number of contents about classical music are produced by the same producer as radio lab?",
+    "entity_dict": {
+      "Classical music": "m.0ggq0m",
+      "radio lab": "m.02rpln2"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "28": {
+    "question": "what kind of government does japan have now and in locations where Emanuel Lasker was born in?",
+    "entity_dict": {
+      "Japan": "m.03_3d",
+      "Emanuel Lasker": "m.01kfm7"
+    },
+    "answer_list": [
+      "m.01q20"
+    ]
+  },
+  "29": {
+    "question": "which was the most recently formed cyclone that is in the same category as tropical storm rachel?",
+    "entity_dict": {
+      "Tropical Storm Rachel": "m.0crbvqz"
+    },
+    "answer_list": [
+      "m.011jnng3"
+    ]
+  },
+  "30": {
+    "question": "Which World series was the last one to be won by the team that had Crazy Crab as the mascot?",
+    "entity_dict": {
+      "Crazy Crab": "m.02q_hzh"
+    },
+    "answer_list": [
+      "m.0117q3yz"
+    ]
+  },
+  "31": {
+    "question": "what is the number of religious practices that practices tibetan buddhism and taoism?",
+    "entity_dict": {
+      "Tibetan Buddhism": "m.07mc4",
+      "Taoism": "m.07gvx"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "32": {
+    "question": "What's the home stadium of the team that won the 2014 AFC Championship Game?",
+    "entity_dict": {
+      "2014 AFC Championship Game": "m.0_gtzbl"
+    },
+    "answer_list": [
+      "m.02hxv8"
+    ]
+  },
+  "33": {
+    "question": "npr news and the producer of the world produce what content?",
+    "entity_dict": {
+      "The World": "m.068xhb",
+      "npr news": "m.0c0sl"
+    },
+    "answer_list": [
+      "m.03d7q1y",
+      "m.03bv0hk"
+    ]
+  },
+  "34": {
+    "question": "how many electronic arts games are available for purchase in the united states?",
+    "entity_dict": {
+      "Electronic Arts": "m.01n073",
+      "united states": "m.09c7w0"
+    },
+    "answer_list": [
+      "5"
+    ]
+  },
+  "35": {
+    "question": "what is the number of religious texts that include both buddhists and buddhism texts?",
+    "entity_dict": {
+      "Buddhism": "m.092bf5",
+      "buddhists": "m.01c2mz"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "36": {
+    "question": "how many contents about radio documentary were produced by the producer of small things considered?",
+    "entity_dict": {
+      "Radio documentary": "m.03hxd3",
+      "Small Things Considered": "m.05v2fbl"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "37": {
+    "question": "which medications to treat pains have sludge syndrome as a side effect?",
+    "entity_dict": {
+      "pains": "m.062t2",
+      "SLUDGE syndrome": "m.025yc7f"
+    },
+    "answer_list": [
+      "m.03brks"
+    ]
+  },
+  "38": {
+    "question": "What is the name of the student that is credited with creating Google?",
+    "entity_dict": {
+      "google": "m.0387r",
+      "Student": "m.014cnc"
+    },
+    "answer_list": [
+      "m.0gjpq"
+    ]
+  },
+  "39": {
+    "question": "what diseases transmitted via sex have the same type of infectious agent as tb?",
+    "entity_dict": {
+      "Sex": "m.06ng1",
+      "tb": "m.07jwr"
+    },
+    "answer_list": [
+      "m.020gd",
+      "m.023zy9",
+      "m.0254zq",
+      "m.074m2"
+    ]
+  },
+  "40": {
+    "question": "which character with an item destroyed by tempus had powers which included control bodies of others?",
+    "entity_dict": {
+      "Tempus": "m.0bxj80p",
+      "Control bodies of others": "m.0c82m0y"
+    },
+    "answer_list": [
+      "m.0bxtt5p"
+    ]
+  },
+  "41": {
+    "question": "What are things to see in downtown Chicago with an image of the skyline?",
+    "entity_dict": {
+      "Skyline of City of Chicago": "m.03sd6x6"
+    },
+    "answer_list": [
+      "m.01dlzc",
+      "m.021czc",
+      "m.025v4fb",
+      "m.027hqc_",
+      "m.02jw0z",
+      "m.02rvwrv",
+      "m.05zv09",
+      "m.06_7k",
+      "m.0b0sh",
+      "m.0b28z",
+      "m.0bl8mx",
+      "m.0c7ln",
+      "m.0d9wz",
+      "m.0g_8d0",
+      "m.0w7m2x9"
+    ]
+  },
+  "42": {
+    "question": "how many religious practices are there that practices jainism and krishna?",
+    "entity_dict": {
+      "Jainism": "m.042s9",
+      "krishna": "m.017j3y"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "43": {
+    "question": "mormonites and eastern christians are practiced by how many religious practices?",
+    "entity_dict": {
+      "mormonites": "m.058x5",
+      "eastern christians": "m.0blk0"
+    },
+    "answer_list": [
+      "2"
+    ]
+  },
+  "44": {
+    "question": "name all types of museums that are of the same type as independence seaport museum and erie maritime museum.",
+    "entity_dict": {
+      "Independence Seaport Museum": "m.02qk116",
+      "Erie Maritime Museum": "m.08x7h8"
+    },
+    "answer_list": [
+      "m.0j58y",
+      "m.03lgh_k",
+      "m.01t372"
+    ]
+  },
+  "45": {
+    "question": "in abrahamic faith, who is the founding figure of feast of assumption?",
+    "entity_dict": {
+      "Feast of Assumption": "m.0_mrbts",
+      "abrahamic faith": "m.0f_h6"
+    },
+    "answer_list": [
+      "m.060nc",
+      "m.045m1_",
+      "m.071wp"
+    ]
+  },
+  "46": {
+    "question": "when did the colts last win the superbowl",
+    "entity_dict": {
+      "colts": "m.03wnh",
+      "superbowl": "m.06x5s"
+    },
+    "answer_list": [
+      "m.04k5qm"
+    ]
+  },
+  "47": {
+    "question": "the religion featuring christmas day, which is part of abrahamic faiths, has a founding leader who is named what?",
+    "entity_dict": {
+      "christmas day": "m.01vq3",
+      "abrahamic faiths": "m.0f_h6"
+    },
+    "answer_list": [
+      "m.060nc",
+      "m.045m1_",
+      "m.071wp"
+    ]
+  },
+  "48": {
+    "question": "what is the farthest variable stars?",
+    "entity_dict": {
+      "variable stars": "m.0gzxf"
+    },
+    "answer_list": [
+      "m.0l1js"
+    ]
+  },
+  "49": {
+    "question": "what kind of viewfinder does the matsushita electric industrial's camera with a sensor that compresses image files into mts use?",
+    "entity_dict": {
+      "mts": "m.042zv3q",
+      "matsushita electric industrial": "m.0nk5b"
+    },
+    "answer_list": [
+      "m.026krtn",
+      "m.036132"
+    ]
+  },
+  "50": {
+    "question": "What city do a majority of the people who live  in the location that contains Gebel Elba reside?",
+    "entity_dict": {
+      "Gebel Elba": "m.026cy73"
+    },
+    "answer_list": [
+      "m.080msrv"
+    ]
+  },
+  "51": {
+    "question": "Who was the Vice President of the man about whom \"Gore Vidal's Lincoln\" was written?",
+    "entity_dict": {
+      "Gore Vidal's Lincoln": "m.04j21rb"
+    },
+    "answer_list": [
+      "m.0rmg"
+    ]
+  },
+  "52": {
+    "question": "how many active websites are owned by monsoon multimedia?",
+    "entity_dict": {
+      "Active": "m.02hsn4g",
+      "Monsoon Multimedia": "m.02v_qm2"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "53": {
+    "question": "When is the last time that the champion of the 1956 Peque\u00c3\u00b1a Copa del Mundo de Clubes win the champions league?",
+    "entity_dict": {
+      "UEFA Champions League Final": "m.05nblxt",
+      "1956 peque\u00e3\u00b1a copa del mundo de clubes": "m.011q6011"
+    },
+    "answer_list": [
+      "m.0gytd9j"
+    ]
+  },
+  "54": {
+    "question": "What film in the same genre as The True Story of The Three Little Pigs starred Adam Sandler?",
+    "entity_dict": {
+      "Adam Sandler": "m.0pz91",
+      "The True Story of the Three Little Pigs": "g.11b5lzm6b0"
+    },
+    "answer_list": [
+      "m.010rdrd1",
+      "m.02m7tn"
+    ]
+  },
+  "55": {
+    "question": "electronic arts has how many games found in the united states?",
+    "entity_dict": {
+      "Electronic Arts": "m.01n073",
+      "united states": "m.09c7w0"
+    },
+    "answer_list": [
+      "5"
+    ]
+  },
+  "56": {
+    "question": "resurrection high school and the publisher of cairn magazine fall under which category of schools?",
+    "entity_dict": {
+      "Cairn Magazine": "m.010pldkg",
+      "Resurrection High School": "m.02r89nh"
+    },
+    "answer_list": [
+      "m.01rs41"
+    ]
+  },
+  "57": {
+    "question": "what type of dish contains crawfish tails and is common in louisiana creole cuisine?",
+    "entity_dict": {
+      "Crawfish tails": "m.07706lz",
+      "Louisiana Creole cuisine": "m.016w_c"
+    },
+    "answer_list": [
+      "m.01z1m1x"
+    ]
+  },
+  "58": {
+    "question": "the plymouth caravelle and \u0161koda 110 r are in which class of automobiles?",
+    "entity_dict": {
+      "\u0160koda 110 R": "m.026ksp4",
+      "Plymouth Caravelle": "m.03jbwv"
+    },
+    "answer_list": [
+      "m.01d1dj",
+      "m.021mp2"
+    ]
+  },
+  "59": {
+    "question": "what is the sensor type of a digital camera that has the color filter array type of bayer and iso settings of 120?",
+    "entity_dict": {
+      "bayer": "m.02r8js",
+      "120": "m.04pf295"
+    },
+    "answer_list": [
+      "m.01zqt"
+    ]
+  },
+  "60": {
+    "question": "what are the diseases transmitted through sex that have the same type of infectious agents as tuberculosis?",
+    "entity_dict": {
+      "Sex": "m.06ng1",
+      "Tuberculosis": "m.07jwr"
+    },
+    "answer_list": [
+      "m.020gd",
+      "m.023zy9",
+      "m.0254zq",
+      "m.074m2"
+    ]
+  },
+  "61": {
+    "question": "the same rocket manufacturer who manufactured ares i and saturn-v created what other rocket?",
+    "entity_dict": {
+      "Ares I": "m.0dqk5f",
+      "saturn-v": "m.07932"
+    },
+    "answer_list": [
+      "m.0269d32",
+      "m.02_9dl",
+      "m.03pvlp",
+      "m.0d8cz_",
+      "m.0fbp58",
+      "m.026j5q"
+    ]
+  },
+  "62": {
+    "question": "In what city do most of the people in the place where the Egyptian Mau breed originated?",
+    "entity_dict": {
+      "Egyptian Mau": "m.0229mb"
+    },
+    "answer_list": [
+      "m.080msrv"
+    ]
+  },
+  "63": {
+    "question": "tempus destroyed an item belonging to which character with the ability of soul destruction?",
+    "entity_dict": {
+      "Tempus": "m.0bxj80p",
+      "soul destruction": "m.0c1rylz"
+    },
+    "answer_list": [
+      "m.0c0b19n"
+    ]
+  },
+  "64": {
+    "question": "which olympic event was officially contested in the 1936 olympics,as well as other olympic games in amesterdam?",
+    "entity_dict": {
+      "amesterdam": "m.0k3p",
+      "1936 olympics": "m.09x3r"
+    },
+    "answer_list": [
+      "m.04fk3lm",
+      "m.07gnx9y",
+      "m.04fk3cx",
+      "m.07fp6sy",
+      "m.04fk2_w",
+      "m.079rjhk",
+      "m.04fk3cl",
+      "m.04fk326",
+      "m.04fk2pv",
+      "m.04fk2hx",
+      "m.07ngnwg",
+      "m.04fk2pc",
+      "m.04fk368",
+      "m.04f9lcn",
+      "m.04f9ld0",
+      "m.04f9ld6",
+      "m.04fk29t",
+      "m.04fk2c_",
+      "m.04fk2cj",
+      "m.04fk2dm",
+      "m.04fk2f7",
+      "m.04fk2gh",
+      "m.04fk2hl",
+      "m.04fk2jp",
+      "m.04fk2lq",
+      "m.04fk2mz",
+      "m.04fk2qm",
+      "m.04fk2qs",
+      "m.04fk2rd",
+      "m.04fk2sn",
+      "m.04fk2tl",
+      "m.04fk2tx",
+      "m.04fk2x7",
+      "m.04fk2xq",
+      "m.04fk2yb",
+      "m.04fk2yh",
+      "m.04fk2zl",
+      "m.04fk300",
+      "m.04fk30h",
+      "m.04fk30t",
+      "m.04fk32_",
+      "m.04fk32p",
+      "m.04fk33m",
+      "m.04fk35z",
+      "m.04fk39d",
+      "m.04fk39q",
+      "m.04fk39w",
+      "m.04fk3b5",
+      "m.04fk3bh",
+      "m.04fk3d6",
+      "m.04fk3dj",
+      "m.04fk3fm",
+      "m.04fk3kp",
+      "m.04fk3l9",
+      "m.04fk3n5",
+      "m.07fp6br",
+      "m.07fp6rz",
+      "m.07mrmgy",
+      "m.07mrmq7",
+      "m.07mvl2f",
+      "m.07mx9ns",
+      "m.07mx9p9",
+      "m.07mx9pt",
+      "m.07mx9qd",
+      "m.07mx9r1",
+      "m.07mxbhd",
+      "m.07n660_",
+      "m.07n661m",
+      "m.07n668v",
+      "m.07n6tlh",
+      "m.07ngwtp",
+      "m.0k1nqc0",
+      "m.04fk2mn"
+    ]
+  },
+  "65": {
+    "question": "of tropical cyclones that affected tci, which are in the same category with tropical storm linda?",
+    "entity_dict": {
+      "Tropical Storm Linda": "m.0bhbf6b",
+      "tci": "m.07fr_"
+    },
+    "answer_list": [
+      "m.04jhm3w"
+    ]
+  },
+  "66": {
+    "question": "which breeds have similar temperament as the picardy spaniel and the seppala siberian sleddogs?",
+    "entity_dict": {
+      "Picardy Spaniel": "m.02qx_df",
+      "seppala siberian sleddogs": "m.01p08w"
+    },
+    "answer_list": [
+      "m.02r4blp",
+      "m.01f57_",
+      "m.01p39m",
+      "m.03htgw",
+      "m.03ysz",
+      "m.05sfy0",
+      "m.08s0ws",
+      "m.02kwdc",
+      "m.0gx1zf",
+      "m.0dhvj7",
+      "m.074g8y",
+      "m.05h0h0",
+      "m.0182yx",
+      "m.062dgz",
+      "g.121bvrw_",
+      "m.011lh",
+      "m.0183xd",
+      "m.01cx_v",
+      "m.01hzb8",
+      "m.01j0x",
+      "m.01kv93",
+      "m.01p3d7",
+      "m.01p5rd",
+      "m.01pm38",
+      "m.01s7fj",
+      "m.01x5q1",
+      "m.01xtxb",
+      "m.020z5t",
+      "m.025wmcw",
+      "m.0266ts8",
+      "m.02700gv",
+      "m.0271kpq",
+      "m.027dtrb",
+      "m.02_73c",
+      "m.02cyl6",
+      "m.02kf24",
+      "m.02kgrx",
+      "m.02kw9d",
+      "m.02nscg",
+      "m.02rfz5",
+      "m.02vjrc",
+      "m.02wbf7",
+      "m.02wbgd",
+      "m.02wcn0z",
+      "m.031pqh",
+      "m.0353h4",
+      "m.0353qr",
+      "m.0388_c",
+      "m.038wt3",
+      "m.039rzl",
+      "m.039s48",
+      "m.03_7wn",
+      "m.03_vlr",
+      "m.03cq_p",
+      "m.03d12",
+      "m.03fyyd",
+      "m.03jjm4",
+      "m.03l5cy",
+      "m.03ydd_",
+      "m.0403wp9",
+      "m.0410k_5",
+      "m.04dm6",
+      "m.04gp8k",
+      "m.04jj62w",
+      "m.04mgcx",
+      "m.04nmst",
+      "m.04prkf",
+      "m.04svjlt",
+      "m.04svljl",
+      "m.04swl7y",
+      "m.04swlxt",
+      "m.04sxcxt",
+      "m.04t5jl6",
+      "m.057_4d",
+      "m.05kz7n",
+      "m.05t252",
+      "m.05tbqb",
+      "m.05y236",
+      "m.06h8yy",
+      "m.0708qt",
+      "m.074pqh",
+      "m.0773fb",
+      "m.0778jb",
+      "m.07blj0",
+      "m.07dx0m",
+      "m.07j9bq",
+      "m.08626",
+      "m.08f_zh",
+      "m.08gl4z",
+      "m.08mgkp",
+      "m.0bjrtp",
+      "m.0bllpv",
+      "m.0bq1jd",
+      "m.0cbgst",
+      "m.0djh8b",
+      "m.0dpx6y",
+      "m.0f339h",
+      "m.0fgh8v",
+      "m.0fl887",
+      "m.0gt5n2",
+      "m.0gvx7",
+      "m.0hw_s",
+      "m.0nr94",
+      "m.04p3f7",
+      "m.01p29g",
+      "m.01pyhj",
+      "m.020dr1",
+      "m.025_s2m",
+      "m.025tcp1",
+      "m.026qz0j",
+      "m.02fvym",
+      "m.02fxgn",
+      "m.02kfwr",
+      "m.02ktbm",
+      "m.02n_s4",
+      "m.02pp4mc",
+      "m.02pxllv",
+      "m.02z57c",
+      "m.03b6hk",
+      "m.03jgg9",
+      "m.0408cgh",
+      "m.044lwh",
+      "m.04sxb0m",
+      "m.04sxbjk",
+      "m.05py4h",
+      "m.06k88g",
+      "m.07bln6",
+      "m.07p7st",
+      "m.07t_h2",
+      "m.07vgwn",
+      "m.08c5h8",
+      "m.09v1cn",
+      "m.0b26w3",
+      "m.0b3s8y",
+      "m.0bq2r1",
+      "m.0c3k58",
+      "m.0cqpth",
+      "m.0fsg8",
+      "m.0hkfc",
+      "m.0m1ct",
+      "m.0blw4s",
+      "m.016wfy",
+      "m.01z404",
+      "m.027z5xc",
+      "m.02f1fz",
+      "m.02kdvy",
+      "m.02l61f",
+      "m.02pl0tr",
+      "m.02ppbk1",
+      "m.02qllrh",
+      "m.02rf9c3",
+      "m.02rjc05",
+      "m.02rwwfw",
+      "m.02ryncw",
+      "m.02vjst",
+      "m.02xp9c",
+      "m.032xlb",
+      "m.032xv1",
+      "m.038wvd",
+      "m.03grfxm",
+      "m.045lcs",
+      "m.04fzvx",
+      "m.051ppn",
+      "m.053_t0",
+      "m.055br8",
+      "m.05bkt9",
+      "m.05c21l",
+      "m.06m828",
+      "m.06w066",
+      "m.08c4cj",
+      "m.08pmt0",
+      "m.08r0rx",
+      "m.0dflqz",
+      "m.0dgnzvz",
+      "m.018z4d",
+      "m.01p2dp",
+      "m.02bp0t",
+      "m.02vjtz",
+      "m.02xlqx",
+      "m.0353wm",
+      "m.03cr7fw",
+      "m.03ys4",
+      "m.049jr6",
+      "m.04dzzn",
+      "m.05pyhd",
+      "m.06c5rq",
+      "m.081zj5",
+      "m.0fxnkq",
+      "m.0fzb8x"
+    ]
+  },
+  "67": {
+    "question": "what is the number of programming language paradigms for euclid and bliss ?",
+    "entity_dict": {
+      "Euclid": "m.03fbrg",
+      "BLISS": "m.022l9v"
+    },
+    "answer_list": [
+      "2"
+    ]
+  },
+  "68": {
+    "question": "which type of symptoms does the fip and old age diseases have in common?",
+    "entity_dict": {
+      "fip": "m.06_1k9",
+      "Old age": "m.01hbgs"
+    },
+    "answer_list": [
+      "m.023s6n",
+      "m.0brgy",
+      "m.0f3kl",
+      "m.0cjf0",
+      "m.01j6t0",
+      "m.0lcdk"
+    ]
+  },
+  "69": {
+    "question": "which unit mass utilises a system of measurement that uses the energy density unit of joule per cubic metre and has a maximum weightmass in kilograms?",
+    "entity_dict": {
+      "Joule per cubic metre": "m.02sj51f"
+    },
+    "answer_list": [
+      "m.07ny7"
+    ]
+  },
+  "70": {
+    "question": "the industry within which the international ladies garment workers union operates has what common parent industry that also is parent to the railway?",
+    "entity_dict": {
+      "international ladies garment workers union": "m.054w78",
+      "railway": "m.06d_3"
+    },
+    "answer_list": [
+      "m.0126b6d7"
+    ]
+  },
+  "71": {
+    "question": "which cheese made from milk of ram has the same texture as black butte does?",
+    "entity_dict": {
+      "ram": "m.07bgp",
+      "Black Butte": "m.02h8b_j"
+    },
+    "answer_list": [
+      "m.02h89g8",
+      "m.02h8b66"
+    ]
+  },
+  "72": {
+    "question": "a digital camera that has the color filter array type of bayer and iso settings of 2000 has what sensor type?",
+    "entity_dict": {
+      "bayer": "m.02r8js",
+      "2000": "m.04l497s"
+    },
+    "answer_list": [
+      "m.02x3xhq"
+    ]
+  },
+  "73": {
+    "question": "What attractions can a visitor see if they are visiting the place where the film Eden Court was located?",
+    "entity_dict": {
+      "Eden Court": "m.0cr696l"
+    },
+    "answer_list": [
+      "m.01dlzc",
+      "m.021czc",
+      "m.025v4fb",
+      "m.027hqc_",
+      "m.02jw0z",
+      "m.02rvwrv",
+      "m.05zv09",
+      "m.06_7k",
+      "m.0b0sh",
+      "m.0b28z",
+      "m.0bl8mx",
+      "m.0c7ln",
+      "m.0d9wz",
+      "m.0g_8d0",
+      "m.0w7m2x9"
+    ]
+  },
+  "74": {
+    "question": "feline infectious peritonitis and some disease caused by old share which symptoms?",
+    "entity_dict": {
+      "Feline infectious peritonitis": "m.06_1k9",
+      "old": "m.01hbgs"
+    },
+    "answer_list": [
+      "m.023s6n",
+      "m.0brgy",
+      "m.0f3kl",
+      "m.0cjf0",
+      "m.01j6t0",
+      "m.0lcdk"
+    ]
+  },
+  "75": {
+    "question": "besides paper embossing, what other art forms were made by pierre redon?",
+    "entity_dict": {
+      "Pierre Redon": "m.05c96m6",
+      "Paper embossing": "m.020fn9"
+    },
+    "answer_list": [
+      "m.01ng72",
+      "m.01pkk0"
+    ]
+  },
+  "76": {
+    "question": "how many elements about public affairs programming are made by the producer of communism, u.s. brand?",
+    "entity_dict": {
+      "public affairs programming": "m.026pm0p",
+      "Communism, U.S. Brand": "m.05sv4yy"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "77": {
+    "question": "what are the number of religious practices that practice buddhism and krishna consciousness?",
+    "entity_dict": {
+      "Buddhism": "m.092bf5",
+      "krishna consciousness": "m.017j3y"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "78": {
+    "question": "find all quotations from tempus that are addressed to whom \"men make their own fates -- it's personal, not a matter for debate\" was addressed to",
+    "entity_dict": {
+      "Tempus": "m.0bxj80p",
+      "\"Men make their own fates -- it's personal, not a matter for debate\"": "m.0g9qhhd"
+    },
+    "answer_list": [
+      "m.0cpg0cq"
+    ]
+  },
+  "79": {
+    "question": "how many other typefaces from microsoft are designed by the same person who designed verdana?",
+    "entity_dict": {
+      "Verdana": "m.0h56_",
+      "Microsoft": "m.04sv4"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "80": {
+    "question": "the text at the core of c&ma and honored by prayer practitioners is what?",
+    "entity_dict": {
+      "c&ma": "m.03yvh5",
+      "Prayer": "m.0687y"
+    },
+    "answer_list": [
+      "m.015j7"
+    ]
+  },
+  "81": {
+    "question": "Find the artist responsible for Something In Common, what drugs were found in their system at the time of their death?",
+    "entity_dict": {
+      "Drug overdose": "m.01tf_6",
+      "Something in Common": "m.0p58j2"
+    },
+    "answer_list": [
+      "m.02nx6jb"
+    ]
+  },
+  "82": {
+    "question": "Who was influenced by Melanie Klein and in turn influenced Whitman's poetry?",
+    "entity_dict": {
+      "whitman": "m.085gk",
+      "Melanie Klein": "m.014shr"
+    },
+    "answer_list": [
+      "m.039n1"
+    ]
+  },
+  "83": {
+    "question": "the setting that is used by canon eos 450d and samsung gx-20 has how many camera iso capabilities?",
+    "entity_dict": {
+      "Canon EOS 450D": "m.03m6znn",
+      "Samsung GX-20": "m.04wjr5m"
+    },
+    "answer_list": [
+      "6"
+    ]
+  },
+  "84": {
+    "question": "which person designed the imac dv and next computer?",
+    "entity_dict": {
+      "NeXT Computer": "m.04_1mz4",
+      "imac dv": "m.02p3xw8"
+    },
+    "answer_list": [
+      "m.06y3r"
+    ]
+  },
+  "85": {
+    "question": "which type of dish common in manado cuisine contains sugars?",
+    "entity_dict": {
+      "sugars": "m.06x4c",
+      "Manado cuisine": "m.0102k5v9"
+    },
+    "answer_list": [
+      "m.0318f4",
+      "m.0gtdm"
+    ]
+  },
+  "86": {
+    "question": "what category of schools does london business school and the publisher of opus fall under?",
+    "entity_dict": {
+      "Opus": "m.02x6y16",
+      "London Business School": "m.02kzfw"
+    },
+    "answer_list": [
+      "m.05jxkf"
+    ]
+  },
+  "87": {
+    "question": "what programming language paradigm is followed by programming languages such as angelscript and derivatives of prolog?",
+    "entity_dict": {
+      "AngelScript": "m.0vsgr58",
+      "Prolog": "m.05vpz"
+    },
+    "answer_list": [
+      "m.05prj"
+    ]
+  },
+  "88": {
+    "question": "Birth place to Ant\u00c3\u00a3o Martins Homem, what type of government did Sparta Greece have?",
+    "entity_dict": {
+      "Sparta": "m.09472",
+      "ant\u00e3\u00a3o martins homem": "g.122wbmv4"
+    },
+    "answer_list": [
+      "m.04szc"
+    ]
+  },
+  "89": {
+    "question": "In Virginia and locations near the Venice Municipal Airport, what time zone do they use?",
+    "entity_dict": {
+      "Virginia": "m.07z1m",
+      "Venice Municipal Airport": "m.026w2y7"
+    },
+    "answer_list": [
+      "m.02hcv8"
+    ]
+  },
+  "90": {
+    "question": "When did the team with a mascot named Fred first win a trophy?",
+    "entity_dict": {
+      "fred": "m.02nsyh9"
+    },
+    "answer_list": [
+      "m.04gk9y8"
+    ]
+  },
+  "91": {
+    "question": "bigger than life: the boundless genius of yiddish theater has how many exhibition subjects?",
+    "entity_dict": {
+      "Bigger than Life: The Boundless Genius of Yiddish Theater": "m.04ky4zp"
+    },
+    "answer_list": [
+      "41"
+    ]
+  },
+  "92": {
+    "question": "how many games of electronic arts are released in the united states?",
+    "entity_dict": {
+      "Electronic Arts": "m.01n073",
+      "united states": "m.09c7w0"
+    },
+    "answer_list": [
+      "5"
+    ]
+  },
+  "93": {
+    "question": "When is the most recent time the sports team whose fight song is \"Meet the Mets\" won the World Series?",
+    "entity_dict": {
+      "Meet the Mets": "m.0bqwsw"
+    },
+    "answer_list": [
+      "m.01q9lc"
+    ]
+  },
+  "94": {
+    "question": "what is the political ideology that the national unity front and the queensland state election, 1977 follow?",
+    "entity_dict": {
+      "Queensland state election, 1977": "m.025_983",
+      "National Unity Front": "m.0cc4np"
+    },
+    "answer_list": [
+      "m.01yqp"
+    ]
+  },
+  "95": {
+    "question": "what number of children of eddard stark were born in winterfell?",
+    "entity_dict": {
+      "Eddard Stark": "m.03qs0n1",
+      "Winterfell": "m.04sstyx"
+    },
+    "answer_list": [
+      "3"
+    ]
+  },
+  "96": {
+    "question": "What was the last championship won by the team coached by Tom Thiboeau?",
+    "entity_dict": {
+      "tom thiboeau": "m.043jv80"
+    },
+    "answer_list": [
+      "m.04zt01"
+    ]
+  },
+  "97": {
+    "question": "When was the last time the basketball team whose head coach is Derek Fisher won the national championship?",
+    "entity_dict": {
+      "Derek Fisher": "m.04lvwk"
+    },
+    "answer_list": [
+      "m.0cs1kg"
+    ]
+  },
+  "98": {
+    "question": "the computer designer for iphone4 and iphone 5 was whom?",
+    "entity_dict": {
+      "iPhone 5": "m.0gg4gh4",
+      "iphone4": "m.0c0bg9c"
+    },
+    "answer_list": [
+      "m.02cw6w"
+    ]
+  },
+  "99": {
+    "question": "what content does new york public radio and the producer of lost & found sound produce?",
+    "entity_dict": {
+      "Lost & Found Sound": "m.05v7hrt",
+      "new york public radio": "m.01_3by"
+    },
+    "answer_list": [
+      "m.05v8dc3"
+    ]
+  },
+  "100": {
+    "question": "what other rocket did the manufacturer of saturn int-21 and delta 2 create?",
+    "entity_dict": {
+      "Saturn INT-21": "m.0d8cz_",
+      "delta 2": "m.026j5q"
+    },
+    "answer_list": [
+      "m.0269d32",
+      "m.02_9dl",
+      "m.03pvlp",
+      "m.0dqk5f",
+      "m.0fbp58",
+      "m.07932"
+    ]
+  },
+  "101": {
+    "question": "which neoplasm treatments come with the side effects of facial redness?",
+    "entity_dict": {
+      "Neoplasm": "m.07p3l",
+      "Facial Redness": "m.07t7mr3"
+    },
+    "answer_list": [
+      "m.02m3m3"
+    ]
+  },
+  "102": {
+    "question": "which rocket function can be found on the saturn v as well as on another rocket made by chrysler group llc?",
+    "entity_dict": {
+      "Chrysler Group LLC": "m.01_bp",
+      "Saturn V": "m.07932"
+    },
+    "answer_list": [
+      "m.0cspd",
+      "m.04rkwz"
+    ]
+  },
+  "103": {
+    "question": "who discovered o as well as an element in the d-block?",
+    "entity_dict": {
+      "d-block": "m.0j7pr",
+      "o": "m.025s6bf"
+    },
+    "answer_list": [
+      "m.0g68n"
+    ]
+  },
+  "104": {
+    "question": "In what year did a team win the superbowl and the 2013 AFC Championship Game ?",
+    "entity_dict": {
+      "Superbowl": "m.06x5s",
+      "2013 AFC Championship Game": "m.0_gtz8t"
+    },
+    "answer_list": [
+      "m.0642vqv",
+      "m.076yq"
+    ]
+  },
+  "105": {
+    "question": "which is the number of automotive classes which are examples of ford freestar and kia sedona?",
+    "entity_dict": {
+      "Ford Freestar": "m.0224xp",
+      "kia sedona": "m.05pfy5"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "106": {
+    "question": "what social sciences discipline does mcclelland conduct research in?",
+    "entity_dict": {
+      "social sciences": "m.06n6p",
+      "mcclelland": "m.018pq1"
+    },
+    "answer_list": [
+      "m.046d3s"
+    ]
+  },
+  "107": {
+    "question": "When was the last time the team that won the 1973 NBA Finals championship won a championship?",
+    "entity_dict": {
+      "1973 NBA Finals": "m.0cs1kg"
+    },
+    "answer_list": [
+      "m.0cs1kg"
+    ]
+  },
+  "108": {
+    "question": "how many different breeds from great britain have the same temperament as the otterhound?",
+    "entity_dict": {
+      "Otterhound": "m.05717m",
+      "Great Britain": "m.034cm"
+    },
+    "answer_list": [
+      "2"
+    ]
+  },
+  "109": {
+    "question": "a digital camera that has the color filter array type of bayer and iso settings of 12800 has what sensor type?",
+    "entity_dict": {
+      "bayer": "m.02r8js",
+      "12800": "m.04sy2g0"
+    },
+    "answer_list": [
+      "m.0d17kj",
+      "m.02x3xhq"
+    ]
+  },
+  "110": {
+    "question": "Wehn did the team with the mascot named Benny the Bull last win the championship?",
+    "entity_dict": {
+      "Benny the Bull": "m.067z_k"
+    },
+    "answer_list": [
+      "m.04zt01"
+    ]
+  },
+  "111": {
+    "question": "what category of schools do emmaus high school and the publisher of the chattahoochee review fall under?",
+    "entity_dict": {
+      "The Chattahoochee Review": "m.05f5qnj",
+      "Emmaus High School": "m.0cmm22"
+    },
+    "answer_list": [
+      "m.02dk5q"
+    ]
+  },
+  "112": {
+    "question": "what is the number of active websites owned by vivek rp?",
+    "entity_dict": {
+      "Active": "m.02hsn4g",
+      "Vivek Rp": "m.0gj5q3j"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "113": {
+    "question": "When did the sports team whose arena is Old Trafford first win a trophy?",
+    "entity_dict": {
+      "Old Trafford": "m.030lpl"
+    },
+    "answer_list": [
+      "m.04gk9y8"
+    ]
+  },
+  "114": {
+    "question": "how many contents about tv were produced by the producer of on the media?",
+    "entity_dict": {
+      "TV": "m.03bty3x",
+      "On The Media": "m.03d53lc"
+    },
+    "answer_list": [
+      "3"
+    ]
+  },
+  "115": {
+    "question": "who was the computer designer for atari 520 stm and atari 260 st?",
+    "entity_dict": {
+      "Atari 260 ST": "m.02h87b6",
+      "Atari 520 STm": "m.02h879n"
+    },
+    "answer_list": [
+      "m.0xwj"
+    ]
+  },
+  "116": {
+    "question": "what camera storage type is supported by olympus d-580 zoom and the digital camera with iso setting of 80?",
+    "entity_dict": {
+      "Olympus D-580 Zoom": "g.1jdmgz_rm",
+      "80": "m.0220vx9"
+    },
+    "answer_list": [
+      "m.02zmtt"
+    ]
+  },
+  "117": {
+    "question": "ralph dix and the producer of wake up kentucky produce what content?",
+    "entity_dict": {
+      "Wake Up Kentucky": "m.0zg08kw",
+      "Ralph Dix": "m.06jj0pb"
+    },
+    "answer_list": [
+      "m.05v2gz6"
+    ]
+  },
+  "118": {
+    "question": "What stadium does the champion of the 1931 World Series Championship play at?",
+    "entity_dict": {
+      "1931 World Series": "m.04tfzf"
+    },
+    "answer_list": [
+      "m.06k1v5"
+    ]
+  },
+  "119": {
+    "question": "what is the subject of the quote no woman marries for money; they are all clever enough, before marrying a millionaire, to fall in love with him first. which was spoken quoted by the angel of remembrance?",
+    "entity_dict": {
+      "No woman marries for money; they are all clever enough, before marrying a millionaire, to fall in love with him first.": "m.048kl1w",
+      "Angel of Remembrance": "m.0h3grm9"
+    },
+    "answer_list": [
+      "m.048knlz"
+    ]
+  },
+  "120": {
+    "question": "where in massachussetts institute of technology does lee young-hee work?",
+    "entity_dict": {
+      "Lee Young-hee": "m.0z8dv3z",
+      "massachussetts institute of technology": "m.04rwx"
+    },
+    "answer_list": [
+      "m.0fyy3y"
+    ]
+  },
+  "121": {
+    "question": "there is a specific cheese with a crumbly texture that is sourced from goat and ovine, what is it called?",
+    "entity_dict": {
+      "ovine": "m.07bgp",
+      "Goat": "m.03fwl",
+      "Crumbly": "m.02wlqk0"
+    },
+    "answer_list": [
+      "m.03cl7d5"
+    ]
+  },
+  "122": {
+    "question": "what programming language paradigm is used by hy and another programming language influenced by lfe?",
+    "entity_dict": {
+      "Hy": "m.011smwfp",
+      "LFE": "m.0_82v0s"
+    },
+    "answer_list": [
+      "m.02ykw"
+    ]
+  },
+  "123": {
+    "question": "which amusement ride is the fastest of all the ones designed by the person who designed the mansion ride?",
+    "entity_dict": {
+      "mansion": "m.01p79p"
+    },
+    "answer_list": [
+      "m.040fq5"
+    ]
+  },
+  "124": {
+    "question": "what kind of content do the producer of wait wait... don't tell me and american radio works produce?",
+    "entity_dict": {
+      "wait wait... don't tell me": "m.041z1gp",
+      "american radio works": "m.03n18r"
+    },
+    "answer_list": [
+      "m.03bty83",
+      "m.03btxkg",
+      "m.03bty93",
+      "m.03bty9_",
+      "m.03d6d9s"
+    ]
+  },
+  "125": {
+    "question": "which character lives in the fictional bandaran island chain of the sacred band of stepsons universe?",
+    "entity_dict": {
+      "Bandaran island chain": "m.0d4qny9",
+      "The Sacred Band of Stepsons universe": "m.0ch8hcq"
+    },
+    "answer_list": [
+      "m.0bxw253",
+      "m.0cvc9fk",
+      "m.0bxj80p",
+      "m.0cpg08q",
+      "m.0bxtyd0",
+      "m.0cpg05_",
+      "m.0bxtt5p",
+      "m.0bxttn0",
+      "m.0cms8kp",
+      "m.0cpg093",
+      "m.0c3vjqr",
+      "m.0c0mpkv",
+      "m.0c3w0tt",
+      "m.0cvc9f6",
+      "m.0b_k83w",
+      "m.0ck6018",
+      "m.0c0bpb_",
+      "m.0ck601y",
+      "m.0dgdw91",
+      "m.0ck601h",
+      "m.0dwxf_",
+      "m.0ck601q"
+    ]
+  },
+  "126": {
+    "question": "Which Children's book about Friendship did Suzanne Collins write?",
+    "entity_dict": {
+      "Suzanne Collins": "m.0bpd5z",
+      "Children's literature": "m.0dwly",
+      "Friendship": "m.019_nn"
+    },
+    "answer_list": [
+      "m.0dsx8l"
+    ]
+  },
+  "127": {
+    "question": "which artwork on wood was painted in the era of juan de arellano?",
+    "entity_dict": {
+      "Juan de Arellano": "m.026z4yz",
+      "Wood": "m.083vt"
+    },
+    "answer_list": [
+      "m.0bfng5d"
+    ]
+  },
+  "128": {
+    "question": "what is the political ideology that the people's monarchist party and the queensland state election, 1977 follow?",
+    "entity_dict": {
+      "Queensland state election, 1977": "m.025_983",
+      "People's Monarchist Party": "m.069gcq"
+    },
+    "answer_list": [
+      "m.01yqp"
+    ]
+  },
+  "129": {
+    "question": "which programming language paradigm does php3 and java script follow?",
+    "entity_dict": {
+      "php3": "m.060kv",
+      "java script": "m.02p97"
+    },
+    "answer_list": [
+      "m.05prj",
+      "m.01c3bz"
+    ]
+  },
+  "130": {
+    "question": "for ned stark's children, how many of them were born in winterfell?",
+    "entity_dict": {
+      "ned stark": "m.03qs0n1",
+      "Winterfell": "m.04sstyx"
+    },
+    "answer_list": [
+      "3"
+    ]
+  },
+  "131": {
+    "question": "face the music and apple records were both produced by whom?",
+    "entity_dict": {
+      "Face the Music": "m.031hssh",
+      "Apple Records": "m.019n_t"
+    },
+    "answer_list": [
+      "m.0473q"
+    ]
+  },
+  "132": {
+    "question": "what programming language paradigm do programming laguages such as livescript and derivatives of lisp follow?",
+    "entity_dict": {
+      "LiveScript": "m.0_l9rcz",
+      "Lisp": "m.04kyw"
+    },
+    "answer_list": [
+      "m.05prj",
+      "m.02ykw"
+    ]
+  },
+  "133": {
+    "question": "which website that belongs to the category of lokl.com has web api of python?",
+    "entity_dict": {
+      "lokl.com": "m.05lq6cx",
+      "Python": "m.05z1_"
+    },
+    "answer_list": [
+      "m.04gd48j"
+    ]
+  },
+  "134": {
+    "question": "In which timezone is Texas, and near, Tulsa International Airport?",
+    "entity_dict": {
+      "Texas": "m.07b_l",
+      "Tulsa International Airport": "m.01qgx3"
+    },
+    "answer_list": [
+      "m.02fqwt"
+    ]
+  },
+  "135": {
+    "question": "japanese whisky blend single malt with grain whisky have how many types?",
+    "entity_dict": {
+      "Grain whisky": "m.041j_x",
+      "Japanese whisky": "m.0bqwqs",
+      "single malt": "m.01k5lq"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "136": {
+    "question": "who made the discovery of both the o and some halogen element?",
+    "entity_dict": {
+      "o": "m.025s6bf",
+      "Halogen": "m.03gcp"
+    },
+    "answer_list": [
+      "m.0g68n"
+    ]
+  },
+  "137": {
+    "question": "The Bahamas was where Emanuel Lasker was born, but what type of government do they have?",
+    "entity_dict": {
+      "Bahamas": "m.0160w",
+      "Emanuel Lasker": "m.01kfm7"
+    },
+    "answer_list": [
+      "m.01q20"
+    ]
+  },
+  "138": {
+    "question": "the culex tarsalis transmits how many infectious diseases?",
+    "entity_dict": {
+      "Culex tarsalis": "m.0gfmf55"
+    },
+    "answer_list": [
+      "30"
+    ]
+  },
+  "139": {
+    "question": "what isos are currently supported by d40x cameras from unknown?",
+    "entity_dict": {
+      "d40x": "m.02pv_hy",
+      "Unknown": "m.01xrf_0"
+    },
+    "answer_list": [
+      "m.01xrf_x",
+      "m.01xrf_7",
+      "m.01xrf_g",
+      "m.01xrf_p",
+      "m.01xrg51",
+      "m.01xrg58"
+    ]
+  },
+  "140": {
+    "question": "what are the number of religious practices that practice hinduism and taoism?",
+    "entity_dict": {
+      "Hinduism": "m.03j6c",
+      "Taoism": "m.07gvx"
+    },
+    "answer_list": [
+      "1"
+    ]
+  },
+  "141": {
+    "question": "What kind of guitar is played by the lyracist who wrote Second Hand News?",
+    "entity_dict": {
+      "Guitar": "m.0342h",
+      "Second Hand News": "m.0bb7st6"
+    },
+    "answer_list": [
+      "m.018vs"
+    ]
+  },
+  "142": {
+    "question": "In what stadium does the team who is owned by William DeWitt, Jr. play?",
+    "entity_dict": {
+      "William DeWitt, Jr.": "m.05qblx"
+    },
+    "answer_list": [
+      "m.06k1v5"
+    ]
+  },
+  "143": {
+    "question": "What is the name of the Facebook founder that was influenced by Jeff Bezos?",
+    "entity_dict": {
+      "facebook": "m.0hmyfsv",
+      "Jeff Bezos": "m.011z69"
+    },
+    "answer_list": [
+      "m.086dny"
+    ]
+  },
+  "144": {
+    "question": "hersbrucker and chinook use how many beer styles?",
+    "entity_dict": {
+      "Hersbrucker": "m.0115gwl7",
+      "Chinook": "m.0115gh_g"
+    },
+    "answer_list": [
+      "2"
+    ]
+  },
+  "145": {
+    "question": "where is the version developed by first star software and distributed through virtual console released?",
+    "entity_dict": {
+      "Virtual Console": "m.07sg3j",
+      "First Star Software": "m.02pzfw"
+    },
+    "answer_list": [
+      "m.09c7w0"
+    ]
+  },
+  "146": {
+    "question": "there exists a musical release produced by angel in my heart and labelled virgin records, what is it?",
+    "entity_dict": {
+      "Angel in My Heart": "m.0mw22q",
+      "Virgin Records": "m.0n85g"
+    },
+    "answer_list": [
+      "m.01kf2vl"
+    ]
+  },
+  "147": {
+    "question": "in united states of america how many games published by electronic arts are available?",
+    "entity_dict": {
+      "Electronic Arts": "m.01n073",
+      "United States of America": "m.09c7w0"
+    },
+    "answer_list": [
+      "5"
+    ]
+  },
+  "148": {
+    "question": "Where is the Busch Stadium arena?",
+    "entity_dict": {
+      "Busch Stadium": "m.06k1v5"
+    },
+    "answer_list": [
+      "m.06k1v5"
+    ]
+  },
+  "149": {
+    "question": "Which suprbowls were won by an NFL team that played in the New York Metropolitan area?",
+    "entity_dict": {
+      "suprbowls": "m.06x5s",
+      "New York metropolitan area": "m.01t12z"
+    },
+    "answer_list": [
+      "m.043t_rh",
+      "m.04myq1",
+      "m.076sw",
+      "m.076v7"
+    ]
+  }
+}

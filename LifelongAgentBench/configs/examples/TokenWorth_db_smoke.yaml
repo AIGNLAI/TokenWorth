@@ -1,0 +1,9 @@
+import:
+  - ../experiments/db/TokenWorth.yaml
+
+assignment_config:
+  output_dir: outputs/runs/smoke/TokenWorth-db-{TIMESTAMP_MS}
+  sample_order:
+    - "0"
+    - "1"
+    - "2"

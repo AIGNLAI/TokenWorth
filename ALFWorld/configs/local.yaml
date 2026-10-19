@@ -1,0 +1,116 @@
+experiment:
+  run_name: alfworld_local
+  output_root: outputs
+  seed: 42
+environment:
+  alfworld_config: configs/alfworld_base.yaml
+  data_root: ''
+  data_root_env: ALFWORLD_DATA_ROOT
+phases:
+  train:
+    enabled: true
+    games: 300
+    epochs: 1
+    sampling: stratified
+  valid_seen:
+    enabled: true
+    games: -1
+    sampling: stratified
+  valid_unseen:
+    enabled: true
+    games: -1
+    sampling: stratified
+model:
+  base_url: ''
+  base_url_env: OPENAI_BASE_URL
+  api_key: ''
+  api_key_env: OPENAI_API_KEY
+  env_file: .env
+  name: qwen2.5-14b-instruct
+  temperature: 0.0
+  top_p: 1.0
+  action_max_tokens: 128
+  auxiliary_max_tokens: 512
+  timeout_seconds: 180
+  retries: 3
+agent:
+  max_steps: 50
+  history_turns: 12
+  observation_chars: 1800
+  repair_attempts: 1
+  loop_guard_enabled: false
+  loop_guard_window: 6
+  loop_guard_repeat_limit: 3
+  disable_memory_after_loop: false
+  memory_prompt_format: method_reference
+retrieval:
+  backend: tokenworth_feature_hashing_cosine
+  dimensions: 512
+  top_k: 1
+  minimum_score: 0.0
+  character_ngram_min: 3
+  character_ngram_max: 5
+memory:
+  trajectory_format: state_delta
+  max_records: 128
+  max_item_chars: 4096
+  context_chars: 4200
+  update_phases:
+  - train
+  - valid_seen
+  - valid_unseen
+methods:
+  rag:
+    writes_only_successes: true
+    retrieval_backend: tokenworth_feature_hashing_cosine
+    embedding_dimensions: 512
+    character_ngram_min: 3
+    character_ngram_max: 5
+    hash_document_field: search_text
+  tokenworth:
+    candidate_count: 12
+    krr_update_interval: 75
+    agop_update_interval: 225
+    krr_buffer_size: 128
+    agop_buffer_size: 256
+    min_pair_count_for_rfm: 4
+    ridge_lambda: 0.01
+    kernel_gamma: 1.0
+    agop_smoothing: 0.25
+    agop_min_weight: 0.05
+    agop_max_weight: 8.0
+    rfm_influence: 0.1
+    rfm_influence_warmup_updates: 3
+    base_buffer_size: 256
+    base_update_interval: 50
+    base_regularization: 0.1
+    base_smoothing: 0.5
+    novelty_threshold: 0.35
+    recent_probe_count: 8
+    write_gain_margin: 0.02
+    positive_ratio_threshold: 0.45
+    replacement_value_margin: 0.1
+    implementation_variant: paper
+  memrl:
+    candidate_k: 8
+    similarity_weight: 0.5
+    alpha: 0.3
+  reflexion:
+    max_per_task_type: 3
+  memskill:
+    action_top_k: 3
+    utility_alpha: 0.2
+    designer_interval: 25
+    max_operation_skills: 16
+  evoskill:
+    evolution_interval: 25
+    minimum_failures: 3
+    validation_window: 20
+    baseline_window: 20
+    minimum_delta: 0.0
+    max_skills: 32
+  evosc:
+    consolidation_interval: 16
+    consolidation_batch_size: 24
+logging:
+  store_raw_responses: false

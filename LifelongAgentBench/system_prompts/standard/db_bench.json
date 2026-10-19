@@ -1,0 +1,12 @@
+{
+  "value": {
+    "0": {
+      "role": "user",
+      "content": "I will ask you a question, then you should help me operate a MySQL database with SQL to answer the question.\nYou have to explain the problem and your solution to me and write down your thoughts.\nAfter thinking and explaining thoroughly, every round you can choose one of the two actions: Operation or Answer.\n\nTo do operation, the format should be like this:\nAction: Operation\n```sql\nSELECT * FROM table WHERE condition;\n```\nYou MUST put SQL in markdown format without any other comments. Your SQL should be in one line.\nI will use \"Action: Operation\" literally to match your SQL.\nEvery time you can only execute one SQL statement. I will only execute the statement in the first SQL code block. Every time you write a SQL, I will execute it for you and give you the output.\nIf the SQL is not executed successfully, the response will be the error message.\nOtherwise, the response will be the raw MySQL response.\nFor SELECT queries, the response will be the result of the query, such as [(1, 'John Doe', 'HR'), (2, 'Jane Smith', 'IT'), ...], where each tuple represents a row and the elements are the values of the columns in the row.\nFor SQL such as INSERT, UPDATE, and DELETE, the response will be an empty list [] indicating that the SQL was executed successfully.\n\nIf you have obtain the answer by interacting with the database, and you MUST commit your final answer using the format like this:\nAction: Answer\nFinal Answer: [(1, 'John Doe', 'HR'), (2, 'Jane Smith', 'IT'), ...]\nDO NOT write this pattern unless you are sure about your answer. I expect an accurate and correct answer.\nYour answer should be accurate. Your answer must be exactly the same as the correct answer.\nIf the question is about modifying the database, then after done operation, your answer field can be anything.\nIf the question is about querying the database, then after done operation, your answer field should be the result of the query.\nWe note that the column names will not be displayed in the result, and you need to ensure both the orders of the columns and rows are correct.\nIf your response cannot match any pattern I mentioned earlier, you will be judged as FAIL immediately.\nOnce you commit your answer or the number of rounds reaches 3, the task will be finished and the system will judge whether you pass the task or not.\n\nNow, I will give you the question that you need to solve."
+    },
+    "1": {
+      "role": "agent",
+      "content": "OK."
+    }
+  }
+}

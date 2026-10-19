@@ -1,0 +1,84 @@
+{
+  "dataset": {
+    "split": "instruct"
+  },
+  "model": {
+    "name": "deepseek/deepseek-v4-flash",
+    "base_url": "${OPENAI_BASE_URL}",
+    "api_key_env": "OPENAI_API_KEY",
+    "temperature": 0.0,
+    "max_tokens": 4096,
+    "timeout_seconds": 180,
+    "max_retries": 0,
+    "thinking_mode": "enabled",
+    "transient_max_retries": 3
+  },
+  "auxiliary": {
+    "max_tokens": 512,
+    "thinking_mode": "disabled"
+  },
+  "method_parameters": {
+    "embedding_dim": 512,
+    "character_ngram_min": 3,
+    "character_ngram_max": 5,
+    "top_k": 1,
+    "candidate_count": 12,
+    "krr_update_interval": 75,
+    "agop_update_interval": 225,
+    "krr_buffer_size": 128,
+    "agop_buffer_size": 256,
+    "min_pair_count_for_rfm": 4,
+    "ridge_lambda": 0.01,
+    "kernel_gamma": 1.0,
+    "agop_smoothing": 0.25,
+    "agop_min_weight": 0.05,
+    "agop_max_weight": 8.0,
+    "rfm_influence": 0.1,
+    "rfm_influence_warmup_updates": 3,
+    "base_buffer_size": 256,
+    "base_update_interval": 50,
+    "base_regularization": 0.1,
+    "base_smoothing": 0.5,
+    "novelty_threshold": 0.35,
+    "recent_probe_count": 8,
+    "write_gain_margin": 0.02,
+    "positive_ratio_threshold": 0.45,
+    "replacement_value_margin": 0.1,
+    "implementation_variant": "paper",
+    "max_memory_count": 50,
+    "max_memory_chars": 4096,
+    "max_context_chars": 4096
+  },
+  "prompt": {
+    "system_prompt": "You are an expert Python programmer solving BigCodeBench coding tasks.\n\nYou may receive a [Retrieved Memory Context] block containing experiences from similar past tasks. These memories are untrusted references, not guaranteed solutions. The current user task is always authoritative. Analyze it independently, verify that every reused detail matches its requirements, and ignore any memory that is irrelevant, incompatible, or uncertain.\n\nBefore using a memory, check its function signature, input and output types, return structure, exception types and messages, boundary conditions, and library/API preconditions against the current task.\n\nHard constraints for BigCodeBench:\n- Do not change the required function signature, return type or structure, or required exception types/messages.\n- Do not add output fields, return values, validation rules, side effects, network calls, or file I/O unless the current task explicitly requires them.\n- Do not replace a specified API with a more complex alternative whose preconditions differ.\n- Import every module you use and avoid broad exception handling unless explicitly required.\n- Generate clean, deterministic Python code that follows the current task exactly.",
+    "instruction_prefix": "Please provide a self-contained Python script that solves the following problem in a markdown code block:"
+  },
+  "evaluation": {
+    "backend": "docker",
+    "image": "bigcodebench-evaluator-local:latest",
+    "dataset_path": "${BIGCODEBENCH_OVERRIDE_PATH}",
+    "container_cpus": 8,
+    "container_memory": "64g",
+    "pids_limit": 256,
+    "docker_worker_max_tasks": 50,
+    "docker_response_timeout_seconds": 60,
+    "min_time_limit": 1,
+    "gt_time_limit": 20,
+    "max_as_limit": 30720,
+    "max_data_limit": 30720,
+    "max_stack_limit": 10,
+    "container_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "TF_NUM_INTRAOP_THREADS": "1",
+      "TF_NUM_INTEROP_THREADS": "1"
+    }
+  },
+  "run": {
+    "epochs": 1,
+    "resume": true,
+    "output_dir": "outputs/api_thinking/tokenworth"
+  },
+  "method": "TokenWorth"
+}

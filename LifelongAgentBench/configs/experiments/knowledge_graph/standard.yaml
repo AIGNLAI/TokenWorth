@@ -1,0 +1,12 @@
+import:
+- ../../tasks/knowledge_graph.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      name: saving
+    callback_1:
+      name: abnormal
+    callback_2:
+      name: memory_monitor
+  output_dir: outputs/runs/standard-knowledge_graph-{TIMESTAMP_MS}
+  sample_order: default

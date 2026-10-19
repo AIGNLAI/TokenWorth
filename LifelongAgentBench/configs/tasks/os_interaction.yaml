@@ -1,0 +1,44 @@
+import:
+- ../utils/definition.yaml
+task_dict:
+  os_interaction:
+    module: src.tasks.instance.os_interaction.OSInteraction
+    parameters:
+      task_name:
+        module: src.typings.TaskName
+        parameters:
+          value: os_interaction
+      system_prompt_factory:
+        module: src.factories.system_prompt.SystemPromptFactory
+        parameters:
+          system_prompt_dict_path: ./system_prompts/standard/os_interaction.json
+      data_file_path: ./data/lifelongagent_bench/os/entry_dict.json
+      max_round: 5
+      command_execution_timeout: 20
+      container_image: local-os/default
+callback_dict:
+  TokenWorth:
+    module: src.callbacks.instance.TokenWorth.TokenWorthOSIdiomMemoryCallback
+    parameters: {}
+assignment_config:
+  task: os_interaction
+  language_model_list:
+  - name: experiment_model
+  agent:
+    name: language_model_agent
+    custom_parameters:
+      language_model: experiment_model
+      inference_config_dict:
+        max_tokens: 512
+        temperature: 0
+        top_p: 1.0
+      action_normalization: first_action_v1
+  generation_budget: 512
+  resource_budget:
+    generation_budget: 512
+    interaction_rounds: 5
+    memory_capacity: 64
+    retrieval_top_k: 1
+    candidate_count: 12
+    injection_chars: 800
+    auxiliary_max_tokens: 512

@@ -1,0 +1,10 @@
+MemP:
+  module: "src.callbacks.instance.MemP.MemPCallback"
+  parameters:
+    language_model: "PLACEHOLDER_LANGUAGE_MODEL"
+    top_k: 8
+    max_memory_count: 256
+    max_trajectory_length: 2000
+    max_injected_chars_total: 2000
+    use_evaluator_outcome_only: false
+    auxiliary_max_tokens: null

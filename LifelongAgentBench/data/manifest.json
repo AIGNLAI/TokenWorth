@@ -1,0 +1,72 @@
+{
+  "protocol_version": "tokenworth-paper-online-v2",
+  "benchmarks": {
+    "db_bench": {
+      "samples": 500,
+      "max_rounds": 3,
+      "primary_metric": "success_rate",
+      "generation_budget": 128,
+      "memory_capacity": 64,
+      "retrieval_top_k": 1,
+      "injection_chars": 900,
+      "candidate_count": 12
+    },
+    "knowledge_graph": {
+      "samples": 150,
+      "max_rounds": 15,
+      "primary_metric": "success_rate",
+      "generation_budget": 128,
+      "memory_capacity": 64,
+      "retrieval_top_k": 1,
+      "injection_chars": 4096,
+      "candidate_count": 12
+    },
+    "os_interaction": {
+      "samples": 500,
+      "max_rounds": 5,
+      "primary_metric": "success_rate",
+      "generation_budget": 512,
+      "memory_capacity": 64,
+      "retrieval_top_k": 1,
+      "injection_chars": 800,
+      "candidate_count": 12
+    }
+  },
+  "files": {
+    "system_prompts/standard/db_bench.json": {
+      "sha256": "cca7239ddd5b1e9788c0eea02f05d582c300da5e572d249dcb923821ec9f785b"
+    },
+    "system_prompts/standard/knowledge_graph_agentbench_v02_strict.json": {
+      "sha256": "b020479e0339671212b367cdbdaa858d6f30c8d3b10f2273081b4953f08eaab4"
+    },
+    "system_prompts/standard/os_interaction.json": {
+      "sha256": "1f3f622d5d10857bde3a9bec177482ce02cb7ed5592c67b00b4392ef4b2a8ca6"
+    },
+    "data/lifelongagent_bench/kg/ontology/fb_roles": {
+      "sha256": "052ec0a1083b5cf83cfbf7f56f5d864e363382e3210e9a482da6e52ca37392ba"
+    },
+    "data/lifelongagent_bench/kg/ontology/fb_types": {
+      "sha256": "d7ccacde076ddb2f71de450c5670e279ea0ad4e73d274d08af9e237c765fa8ea"
+    },
+    "data/lifelongagent_bench/kg/ontology/reverse_properties": {
+      "sha256": "8c120e0f7ee074fa528f4732ede588597a9c3df767a59b7c8e02114ed39b35ac"
+    },
+    "data/lifelongagent_bench/kg/ontology/vocab.json": {
+      "sha256": "6a178fa7f348631d816e37a384a89039b6ef1903c8797c4a20fbe97074ba6453"
+    },
+    "data/lifelongagent_bench/kg/entry_dict.json": {
+      "sha256": "23558ffac220af7bf24fa8434138e6427fa1267a07b541d35601e242588acb9f",
+      "records": 150
+    },
+    "data/lifelongagent_bench/db/entry_dict.json": {
+      "sha256": "f3e650828ad2096edd6b89bd343724ae05ac1f8afda60b8b74ecc0ce98c712c7",
+      "records": 500
+    },
+    "data/lifelongagent_bench/os/entry_dict.json": {
+      "sha256": "78110ed3123f2e5cd9604e8170c8a137eae22d7db7c7188694ab9daa5509a649",
+      "records": 500
+    }
+  },
+  "learning_protocol": "online_prequential",
+  "paper_reference": "TokenWorth, Appendix A.4 and B, Table A1"
+}

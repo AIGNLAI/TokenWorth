@@ -1,0 +1,7 @@
+import:
+  - ../experiments/knowledge_graph/TokenWorth.yaml
+
+assignment_config:
+  output_dir: outputs/runs/smoke/TokenWorth-knowledge_graph-{TIMESTAMP_MS}
+  sample_order:
+    - "0"

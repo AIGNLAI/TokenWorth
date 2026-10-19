@@ -1,0 +1,22 @@
+import:
+- ../../tasks/db.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      name: Mem0
+      custom_parameters:
+        language_model: experiment_model
+        top_k: 1
+        max_memory_count: 64
+        max_trajectory_length: 900
+        max_injected_chars_total: 900
+        auxiliary_max_tokens: 128
+        use_evaluator_outcome_only: true
+    callback_1:
+      name: saving
+    callback_2:
+      name: abnormal
+    callback_3:
+      name: memory_monitor
+  output_dir: outputs/runs/Mem0-db-{TIMESTAMP_MS}
+  sample_order: default

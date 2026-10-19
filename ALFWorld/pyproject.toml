@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tokenworth-alfworld"
+version = "0.2.0"
+description = "Continual-memory experiments for ALFWorld"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+  "tokenworth-core==0.2.0",
+  "alfworld @ git+https://github.com/alfworld/alfworld.git@aaba6870f86c5be6a08a491f32a50b906227bc3e",
+  "numpy>=1.21,<3",
+  "PyYAML>=6,<7",
+  # spaCy 3.8 no longer supports the Python 3.9 reference environment.
+  "spacy==3.7.5",
+  # TextWorld 1.7.0 ships malformed wheel metadata; 1.6.2 is upstream-compatible.
+  "textworld[pddl]==1.6.2",
+]
+
+[project.urls]
+Repository = "https://github.com/AIGNLAI/TokenWorth"
+Documentation = "https://github.com/AIGNLAI/TokenWorth/tree/main/ALFWorld"
+
+[tool.setuptools]
+packages = ["continual_alfworld"]

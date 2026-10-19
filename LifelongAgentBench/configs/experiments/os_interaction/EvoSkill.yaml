@@ -1,0 +1,29 @@
+import:
+- ../../tasks/os_interaction.yaml
+assignment_config:
+  callback_dict:
+    callback_0:
+      custom_parameters:
+        baseline_window: 50
+        evolution_interval: 25
+        failure_batch_size: 8
+        feedback_history_size: 8
+        language_model: experiment_model
+        max_context_length: 800
+        max_failure_buffer_size: 16
+        max_injected_chars_total: 800
+        max_skill_count: 64
+        max_trajectory_length: 800
+        min_token_overlap: 1
+        top_k: 1
+        validation_window: 25
+        auxiliary_max_tokens: 512
+      name: EvoSkill
+    callback_1:
+      name: saving
+    callback_2:
+      name: abnormal
+    callback_3:
+      name: memory_monitor
+  output_dir: outputs/runs/EvoSkill-os-{TIMESTAMP_MS}
+  sample_order: default

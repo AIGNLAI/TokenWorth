@@ -1,0 +1,76 @@
+name: Training and evaluation checks
+
+'on': [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  lifelongagentbench:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: LifelongAgentBench
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11.16'
+          cache: pip
+          cache-dependency-path: |
+            LifelongAgentBench/requirements-lock.txt
+            LifelongAgentBench/pyproject.toml
+            tokenworth_core/pyproject.toml
+      - name: Install locked environment and verify data
+        run: bash scripts/install.sh --extras dev
+      - name: Validate dependencies and workflow regressions
+        run: |
+          .venv/bin/python -m pip check
+          .venv/bin/python -m pytest -q
+
+  bigcodebench:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: BigCodeBench
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.10'
+          cache: pip
+          cache-dependency-path: |
+            BigCodeBench/requirements.lock
+            BigCodeBench/pyproject.toml
+            tokenworth_core/pyproject.toml
+      - name: Install isolated BigCodeBench environment
+        run: bash scripts/install.sh --extras test
+      - name: Validate dependencies and offline adapter tests
+        run: |
+          .venv/bin/python -m pip check
+          .venv/bin/python -m pytest -q
+
+  alfworld:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: ALFWorld
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.9'
+          cache: pip
+          cache-dependency-path: |
+            ALFWorld/requirements.lock
+            ALFWorld/pyproject.toml
+            tokenworth_core/pyproject.toml
+      - name: Install isolated ALFWorld environment
+        run: bash scripts/install.sh
+      - name: Validate dependencies and offline adapter tests
+        run: |
+          .venv/bin/python -m pip check
+          .venv/bin/python -m unittest discover -s tests -q

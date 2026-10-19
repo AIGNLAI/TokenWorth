@@ -1,0 +1,22 @@
+MemSkill:
+  module: "src.callbacks.instance.MemSkill.MemSkillCallback"
+  parameters:
+    language_model: "PLACEHOLDER_LANGUAGE_MODEL"
+    top_k: 8
+    top_k_skills: 3
+    max_memory_count: 512
+    max_skill_count: 24
+    max_trajectory_length: 3000
+    skill_evolution_interval: 0
+    hard_case_buffer_size: 32
+    max_evolution_changes: 2
+    correct_memory_only: true
+    max_injected_memory_chars_per_item: 400
+    max_injected_memory_chars_total: 1600
+    max_injected_chars_total: null
+    retrieval_strength_weight: 0.5
+    retrieval_access_weight: 0.0
+    max_retrieval_strength: 3.0
+    max_retrieval_access_count: 5
+    use_evaluator_outcome_only: false
+    auxiliary_max_tokens: null
