@@ -2,16 +2,16 @@
 
 # TokenWorth
 
-### Every Token Counts:<br>Online Memory Worth for Resource-Constrained Lifelong Agents
+### Learning What to Remember:<br>Resource-Efficient Self-Improvement for Lifelong Agents
 
 Guannan Lai · Zi-Yang Bai · Jun-Peng Jiang · Han-Jia Ye<br>
 Nanjing University
 
 **[NeurIPS 2026 Workshop on Towards Test-Time Continual Learning Agents](https://openreview.net/forum?id=PM9T7txQUG)**
 
-**Learn which experiences are worth retrieving, retaining, and reusing.**
+**Resource-efficient self-improvement through feedback-driven memory adaptation.**
 
-[![Paper](https://img.shields.io/badge/Paper-OpenReview-B31B1B)](https://openreview.net/forum?id=PM9T7txQUG) [![Tests](https://github.com/AIGNLAI/TokenWorth/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/AIGNLAI/TokenWorth/actions/workflows/tests.yml) [![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11-3776AB?logo=python&logoColor=white)](#benchmarks) [![Benchmarks](https://img.shields.io/badge/Benchmarks-3%20suites-0F766E)](#benchmarks)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.26453-B31B1B)](https://arxiv.org/abs/2610.26453) [![Tests](https://github.com/AIGNLAI/TokenWorth/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/AIGNLAI/TokenWorth/actions/workflows/tests.yml) [![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11-3776AB?logo=python&logoColor=white)](#benchmarks) [![Benchmarks](https://img.shields.io/badge/Benchmarks-3%20suites-0F766E)](#benchmarks)
 
 [Overview](#overview) · [Quick Start](#quick-start) · [Benchmarks](#benchmarks) · [Method](#method) · [Citation](#citation)
 
@@ -19,15 +19,14 @@ Nanjing University
 
 ## Overview
 
-Lifelong agents learn from experience while operating under limited generation,
-interaction, and memory budgets. A relevant memory can still be unhelpful:
-what matters is whether it improves execution under those constraints.
+Self-improving lifelong agents must decide which experiences help future
+decisions under limited generation, interaction, and memory resources.
 
-**TokenWorth** is a lightweight online memory framework that learns
-query-dependent memory worth from execution feedback. It combines an
+**TokenWorth** is a lightweight, feedback-driven memory adaptation framework
+that learns query-dependent memory worth from sparse execution feedback. It combines an
 interpretable base scorer with a residual Recursive Feature Machine (RFM),
-and uses the same learned value for retrieval and bounded memory management.
-The agent's backbone stays frozen throughout the task stream.
+then uses the learned worth for experience retrieval and bounded memory management.
+The backbone remains frozen while the agent adapts how it reuses experience online.
 
 <p align="center">
   <img src="assets/tokenworth-overview.png" width="100%" alt="Figure 2 from the paper: TokenWorth's retrieval, online RFM learning and memory-bank management.">
@@ -188,12 +187,15 @@ TokenWorth/
 If you use TokenWorth, cite:
 
 ```bibtex
-@inproceedings{lai2026every,
-  title = {Every Token Counts: Online Memory Worth for Resource-Constrained Lifelong Agents},
+@misc{lai2026learning,
+  title = {Learning What to Remember: Resource-Efficient Self-Improvement for Lifelong Agents},
   author = {Guannan Lai and Zi-Yang Bai and Jun-Peng Jiang and Han-Jia Ye},
-  booktitle = {NeurIPS 2026 Workshop on Towards Test-Time Continual Learning Agents},
   year = {2026},
-  url = {https://openreview.net/forum?id=PM9T7txQUG}
+  eprint = {2610.26453},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  doi = {10.48550/arXiv.2610.26453},
+  url = {https://arxiv.org/abs/2610.26453}
 }
 ```
 
